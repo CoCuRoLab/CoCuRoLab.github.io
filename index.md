@@ -2,13 +2,24 @@
 ---
 # About Us
 
-The CoCuRo Lab is led by Prof. Ian Abraham. 
+The **Co**mputational methods for **Cu**rious **Ro**bots Lab is a robotics research group focused on the development of rigorous mathematical, algorithmic, and optimization methods for robotic learning and control led by [Dr. Ian Abraham](_members/ian-abraham.md). 
+
+Our theoretical breakthroughs are deployed on a wide range of diverse robotic systems to expand their utility and overall success in both domestic and the most remote and extreme environments. 
+
+# Interested in Joining?
+
+Those interested in joining our [group](team/index.md) are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms to expand the capabilities of robots, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation. 
+
+Other skills that are useful: 
+
+- ROS 1/2 experience 
+- Extensive Python and C/C++ coding experience
+- Exposure to modern ML/AI autodiff libraries like JAX/PyTorch
+- Proof writing abilities
+
+If this research sounds exciting then reach email a cover letter, CV, and how you would contribute to the CoCuRo Lab to ian {dot} abraham {at} sydney.edu.au with the subject line In. 
 
 
-
-Robotic systems have the potential to enhance our way of life and solve some of the world's most difficult problems---but in doing so they encounter situations unanticipated by the robot designer and software developer. Robots need to be equipped with mechanisms that allow them to respond to the unknown reliably to guarantees their success.  
-
-We are interested in discovering principles for robots to adapt and learn in real-time through negotiating and responding to their environment. Specifically, our research seeks to analyze and discover principled methods that enable robots to curiously explore, interact, and learn in novel scenarios with minimal data, compute, and with strong performance and reliability guarantees.
 
 <!-- {% include section.html %}
 
