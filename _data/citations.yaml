@@ -1,5 +1,37 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/TRO.2026.3654384
+  title: Koopman Operators in Robot Learning
+  authors:
+  - Lu Shi
+  - Masih Haseli
+  - Giorgos Mamakoukas
+  - Daniel Bruder
+  - Ian Abraham
+  - Todd Murphey
+  - "Jorge Cort\xE9s"
+  - Konstantinos Karydis
+  publisher: IEEE Transactions on Robotics
+  date: '2026-01-01'
+  link: https://doi.org/hbkcgd
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-032-04584-3_38
+  title: "Measure Preserving Flows for\_Ergodic Search in\_Convoluted Environments"
+  authors:
+  - Albert Xu
+  - Bhaskar Vundurthy
+  - Geordan Gutow
+  - Ian Abraham
+  - Jeff Schneider
+  - Howie Choset
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2025-11-02'
+  link: https://doi.org/hbkcgf
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/02783649241273597
   title: 'Time-optimal ergodic search: Multiscale coverage in minimum time'
   authors:
@@ -9,6 +41,172 @@
   publisher: The International Journal of Robotics Research
   date: '2024-10-08'
   link: https://doi.org/g8nr7k
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icarm65671.2025.11293600
+  title: 3D Reprojection-Driven Robot Navigation Improves Depth Sensing
+  authors:
+  - "Marvin Chanc\xE1n"
+  - Alex Wong
+  - Ian Abraham
+  publisher: 2025 International Conference on Advanced Robotics and Mechatronics (ICARM)
+  date: '2025-08-01'
+  link: https://doi.org/hbkcgg
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra55743.2025.11127626
+  title: Ergodic Exploration over Meshable Surfaces
+  authors:
+  - Dayi Dong
+  - Albert Xu
+  - Geordan Gutow
+  - Howie Choset
+  - Ian Abraham
+  publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2025-05-19'
+  link: https://doi.org/hbkcgh
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra55743.2025.11127573
+  title: Ergodic Trajectory Optimization on Generalized Domains Using Maximum Mean
+    Discrepancy
+  authors:
+  - Christian Hughes
+  - Houston Warren
+  - Darrick Lee
+  - Fabio Ramos
+  - Ian Abraham
+  publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2025-05-19'
+  link: https://doi.org/hbkcgj
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra55743.2025.11128670
+  title: Multi-Agent Ergodic Exploration Under Smoke-Based Time-Varying Sensor Visibility
+    Constraints
+  authors:
+  - Elena Wittemyer
+  - Ananya Rao
+  - Ian Abraham
+  - Howie Choset
+  publisher: 2025 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2025-05-19'
+  link: https://doi.org/hbkcgk
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2503.05026
+  title: Ergodic Exploration over Meshable Surfaces
+  authors:
+  - Dayi Dong
+  - Albert Xu
+  - Geordan Gutow
+  - Howie Choset
+  - Ian Abraham
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbkcgm
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2503.04998
+  title: Multi-Agent Ergodic Exploration under Smoke-Based, Time-Varying Sensor Visibility
+    Constraints
+  authors:
+  - Elena Wittemyer
+  - Ananya Rao
+  - Ian Abraham
+  - Howie Choset
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbkcgn
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2409.09164
+  title: Measure Preserving Flows for Ergodic Search in Convoluted Environments
+  authors:
+  - Albert Xu
+  - Bhaskar Vundurthy
+  - Geordan Gutow
+  - Ian Abraham
+  - Jeff Schneider
+  - Howie Choset
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbkcgp
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2408.04200
+  title: Koopman Operators in Robot Learning
+  authors:
+  - Lu Shi
+  - Masih Haseli
+  - Giorgos Mamakoukas
+  - Daniel Bruder
+  - Ian Abraham
+  - Todd Murphey
+  - Jorge Cortes
+  - Konstantinos Karydis
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbkcgq
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra57147.2024.10609871
+  title: 'Energy-Aware Ergodic Search: Continuous Exploration for Multi-Agent Systems
+    with Battery Constraints'
+  authors:
+  - Adam Seewald
+  - Cameron J. Lerch
+  - "Marvin Chanc\xE1n"
+  - Aaron M. Dollar
+  - Ian Abraham
+  publisher: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2024-05-13'
+  link: https://doi.org/hbkcgr
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra57147.2024.10610399
+  title: 'RB5 Low-Cost Explorer: Implementing Autonomous Long-Term Exploration on
+    Low-Cost Robotic Hardware'
+  authors:
+  - Adam Seewald
+  - "Marvin Chanc\xE1n"
+  - Connor M. McCann
+  - Seonghoon Noh
+  - Omeed Fallahi
+  - Hector Castillo
+  - Ian Abraham
+  - Aaron M. Dollar
+  publisher: 2024 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2024-05-13'
+  link: https://doi.org/hbkcgs
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2402.08897
+  title: 'RB5 Low-Cost Explorer: Implementing Autonomous Long-Term Exploration on
+    Low-Cost Robotic Hardware'
+  authors:
+  - Adam Seewald
+  - "Marvin Chanc\xE1n"
+  - Connor M. McCann
+  - Seonghoon Noh
+  - Omeed Fallahi
+  - Hector Castillo
+  - Ian Abraham
+  - Aaron M. Dollar
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbkcgt
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -33,22 +231,100 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1109/TRO.2022.3228130
-  title: Learning Stable Models for Prediction and Control
+- id: doi:10.1007/978-3-031-51497-5_9
+  title: "Sparse Sensing in\_Ergodic Optimization"
   authors:
-  - Giorgos Mamakoukas
+  - Ananya Rao
   - Ian Abraham
-  - Todd D. Murphey
-  publisher: IEEE Transactions on Robotics
-  date: '2023-06-01'
-  link: https://doi.org/gsngmh
+  - Guillaume Sartoretti
+  - Howie Choset
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2024-01-01'
+  link: https://doi.org/hbkcgv
   orcid: 0000-0003-0299-1760
-  plugin: sources.py
-  file: sources.yaml
-  tags:
-  - Koopman operator theory
-  - optimal control
-  - learning
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2310.09470
+  title: 'Energy-Aware Ergodic Search: Continuous Exploration for Multi-Agent Systems
+    with Battery Constraints'
+  authors:
+  - Adam Seewald
+  - Cameron J. Lerch
+  - "Marvin Chanc\xE1n"
+  - Aaron M. Dollar
+  - Ian Abraham
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbkcgw
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/iros55552.2023.10341437
+  title: Bi-Level Image-Guided Ergodic Exploration with Applications to Planetary
+    Rovers
+  authors:
+  - Elena Wittemyer
+  - Ian Abraham
+  publisher: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2023-10-01'
+  link: https://doi.org/hbkcgx
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/iros55552.2023.10341353
+  title: Multi-Agent Multi-Objective Ergodic Search Using Branch and Bound
+  authors:
+  - Akshaya Kesarimangalam Srinivasan
+  - Geordan Gutow
+  - Zhongqiang Ren
+  - Ian Abraham
+  - Bhaskar Vundurthy
+  - Howie Choset
+  publisher: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2023-10-01'
+  link: https://doi.org/hbkcgz
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2310.06164
+  title: 'DEUX: Active Exploration for Learning Unsupervised Depth Perception'
+  authors:
+  - "Marvin Chanc\xE1n"
+  - Alex Wong
+  - Ian Abraham
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbkcg2
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2307.16707
+  title: Bi-Level Image-Guided Ergodic Exploration with Applications to Planetary
+    Rovers
+  authors:
+  - Elena Wittemyer
+  - Ian Abraham
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbkcg3
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra48891.2023.10161032
+  title: Safety-Critical Ergodic Exploration in Cluttered Environments via Control
+    Barrier Functions
+  authors:
+  - Cameron Lerch
+  - Dayi Dong
+  - Ian Abraham
+  publisher: 2023 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2023-05-29'
+  link: https://doi.org/hbkcg4
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/02783649221083331
   title: Hybrid control for combining model-based and model-free reinforcement learning
   authors:
@@ -89,7 +365,442 @@
   - ergodic control
   - ergodicitys
   - human-robot interaction
-- id: doi:10.1109/TRO.2023.3284358
+- id: doi:10.1007/978-3-031-25555-7_11
+  title: Scale-Invariant Fast Functional Registration
+  authors:
+  - Muchen Sun
+  - Allison Pinosky
+  - Ian Abraham
+  - Todd Murphey
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2023-01-01'
+  link: https://doi.org/hbkcg5
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2212.03106
+  title: Scale-Invariant Specifications for Human-Swarm Systems
+  authors:
+  - Joel Meyer
+  - Ahalya Prabhakar
+  - Allison Pinosky
+  - Ian Abraham
+  - Annalisa Taylor
+  - Millicent Schlafly
+  - Katarina Popovic
+  - Giovani Diniz
+  - Brendan Teich
+  - Borislava Simidchieva
+  - Shane Clark
+  - Todd Murphey
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hbkcg6
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2209.12763
+  title: Scale-Invariant Fast Functional Registration
+  authors:
+  - Muchen Sun
+  - Allison Pinosky
+  - Ian Abraham
+  - Todd Murphey
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hbkcg7
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2207.02923
+  title: A Local Optimization Framework for Multi-Objective Ergodic Search
+  authors:
+  - Zhongqiang Ren
+  - Akshaya Kesarimangalam Srinivasan
+  - Howard Coffin
+  - Ian Abraham
+  - Howie Choset
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hbkcg8
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/icra46639.2022.9812037
+  title: Multi-Agent Dynamic Ergodic Search with Low-Information Sensors
+  authors:
+  - Howard Coffin
+  - Ian Abraham
+  - Guillaume Sartoretti
+  - Tyler Dillstrom
+  - Howie Choset
+  publisher: 2022 International Conference on Robotics and Automation (ICRA)
+  date: '2022-05-23'
+  link: https://doi.org/hbkcg9
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2112.12740
+  title: Learning Cooperative Multi-Agent Policies with Partial Reward Decoupling
+  authors:
+  - Benjamin Freed
+  - Aditya Kapoor
+  - Ian Abraham
+  - Jeff Schneider
+  - Howie Choset
+  publisher: arXiv
+  date: '2021-01-01'
+  link: https://doi.org/hbkchb
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/iros51168.2021.9636011
+  title: Linear Policies are Sufficient to Enable Low-Cost Quadrupedal Robots to Traverse
+    Rough Terrain
+  authors:
+  - Maurice Rahme
+  - Ian Abraham
+  - Matthew L. Elwin
+  - Todd D. Murphey
+  publisher: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2021-09-27'
+  link: https://doi.org/hbkchc
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.2011905118
+  title: A dynamical model for generating synthetic data to quantify active tactile
+    sensing behavior in the rat
+  authors:
+  - Nadina O. Zweifel
+  - Nicholas E. Bush
+  - Ian Abraham
+  - Todd D. Murphey
+  - Mitra J. Z. Hartmann
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2021-07-01'
+  link: https://doi.org/hbkchd
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tase.2020.3043636
+  title: An Ergodic Measure for Active Learning From Equilibrium
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Todd D. Murphey
+  publisher: IEEE Transactions on Automation Science and Engineering
+  date: '2021-07-01'
+  link: https://doi.org/gsngmn
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-66723-8_27
+  title: Hybrid Control for Learning Motor Skills
+  authors:
+  - Ian Abraham
+  - Alexander Broad
+  - Allison Pinosky
+  - Brenna Argall
+  - Todd D. Murphey
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2021-01-01'
+  link: https://doi.org/hbkchf
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2010.12070
+  title: Dynamics and Domain Randomized Gait Modulation with Bezier Curves for Sim-to-Real
+    Legged Locomotion
+  authors:
+  - Maurice Rahme
+  - Ian Abraham
+  - Matthew L. Elwin
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchg
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0278364920921935
+  title: "Data-driven Koopman operators for model-based shared control of human\u2013\
+    machine systems"
+  authors:
+  - Alexander Broad
+  - Ian Abraham
+  - Todd Murphey
+  - Brenna Argall
+  publisher: The International Journal of Robotics Research
+  date: '2020-06-10'
+  link: https://doi.org/gqwjnb
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.07210
+  title: Data-driven Koopman Operators for Model-based Shared Control of Human-Machine
+    Systems
+  authors:
+  - Alexander Broad
+  - Ian Abraham
+  - Todd Murphey
+  - Brenna Argall
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchh
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.06081
+  title: 'Ergodic Specifications for Flexible Swarm Control: From User Commands to
+    Persistent Adaptation'
+  authors:
+  - Ahalya Prabhakar
+  - Ian Abraham
+  - Annalisa Taylor
+  - Millicent Schlafly
+  - Katarina Popovic
+  - Giovani Diniz
+  - Brendan Teich
+  - Borislava Simidchieva
+  - Shane Clark
+  - Todd Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchj
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.03552
+  title: An Ergodic Measure for Active Learning From Equilibrium
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchk
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.03636
+  title: Hybrid Control for Learning Motor Skills
+  authors:
+  - Ian Abraham
+  - Alexander Broad
+  - Allison Pinosky
+  - Brenna Argall
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchm
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.03106
+  title: Model-Based Generalization Under Parameter Uncertainty Using Path Integral
+    Control
+  authors:
+  - Ian Abraham
+  - Ankur Handa
+  - Nathan Ratliff
+  - Kendall Lowrey
+  - Todd D. Murphey
+  - Dieter Fox
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchn
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2005.04291
+  title: Learning Stable Models for Prediction and Control
+  authors:
+  - Giorgos Mamakoukas
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchp
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-44051-0_17
+  title: Active Area Coverage from Equilibrium
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Todd D. Murphey
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2020-01-01'
+  link: https://doi.org/hbkchq
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-35713-9_16
+  title: Experimental Applications of the Koopman Operator in Active Learning for
+    Control
+  authors:
+  - Thomas A. Berrueta
+  - Ian Abraham
+  - Todd Murphey
+  publisher: Lecture Notes in Control and Information Sciences
+  date: '2020-01-01'
+  link: https://doi.org/hbkchr
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1906.05194
+  title: Active Learning of Dynamics for Data-Driven Control Using Koopman Operators
+  authors:
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbkchs
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1902.03320
+  title: Active Area Coverage from Equilibrium
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbkcht
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1808.01184
+  title: Structured Neural Network Dynamics for Model-based Control
+  authors:
+  - Alexander Broad
+  - Ian Abraham
+  - Todd Murphey
+  - Brenna Argall
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbkchv
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1806.05220
+  title: 'Decentralized Ergodic Control: Distribution-Driven Sensing and Exploration
+    for Multi-Agent Systems'
+  authors:
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbkchw
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1806.00112
+  title: Data-Driven Measurement Models for Active Localization in Sparse Environments
+  authors:
+  - Ian Abraham
+  - Anastasia Mavrommati
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbkchx
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1709.01560
+  title: Ergodic Exploration using Binary Sensing for Non-Parametric Shape Estimation
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Mitra J. Z. Hartmann
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbkchz
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1709.01568
+  title: Model-Based Control Using Koopman Operators
+  authors:
+  - Ian Abraham
+  - Gerardo De La Torre
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbkch2
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1708.08416
+  title: Real-Time Area Coverage and Target Localization using Receding-Horizon Ergodic
+    Exploration
+  authors:
+  - Anastasia Mavrommati
+  - Emmanouil Tzorakoleftherakis
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbkch3
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/lra.2017.2654542
+  title: Ergodic Exploration Using Binary Sensing for Nonparametric Shape Estimation
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Mitra J. Z. Hartmann
+  - Todd D. Murphey
+  publisher: IEEE Robotics and Automation Letters
+  date: '2017-04-01'
+  link: https://doi.org/gkrc9d
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1115/1.4028751
+  title: A Nonlinear Leg Damping Model for the Prediction of Running Forces and Stability
+  authors:
+  - Ian Abraham
+  - ZhuoHua Shen
+  - Justin Seipel
+  publisher: Journal of Computational and Nonlinear Dynamics
+  date: '2015-04-02'
+  link: https://doi.org/hbkch4
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/acc.2015.7170893
+  title: Model predictive control of buoyancy propelled autonomous underwater glider
+  authors:
+  - Ian Abraham
+  - Jingang Yi
+  publisher: 2015 American Control Conference (ACC)
+  date: '2015-07-01'
+  link: https://doi.org/hbkch5
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15607/rss.2022.xviii.052
+  title: A Local Optimization Framework for Multi-Objective Ergodic Search
+  authors:
+  - Zhongqiang Ren
+  - Akshaya Kesarimangalam Srinivasan
+  - Howard Coffin
+  - Ian Abraham
+  - Howie Choset
+  publisher: 'Robotics: Science and Systems XVIII'
+  date: '2022-06-27'
+  link: https://doi.org/hbkch6
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tro.2023.3284358
   title: A Pareto-Optimal Local Optimization Framework for Multiobjective Ergodic
     Search
   authors:
@@ -102,14 +813,64 @@
   date: '2023-10-01'
   link: https://doi.org/gsngmk
   orcid: 0000-0003-0299-1760
-  plugin: sources.py
-  file: sources.yaml
-  tags:
-  - optimization
-  - multi-objective optimization
-  - ergodic search
-  - ergodicity
-- id: doi:10.1109/LRA.2021.3135930
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tro.2019.2923880
+  title: Active Learning of Dynamics for Data-Driven Control Using Koopman Operators
+  authors:
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: IEEE Transactions on Robotics
+  date: '2019-10-01'
+  link: https://doi.org/gg65zt
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15607/rss.2018.xiv.045
+  title: Data-Driven Measurement Models for Active Localization in Sparse Environments
+  authors:
+  - Ian Abraham
+  - Anastasia Mavrommati
+  - Todd Murphey
+  publisher: 'Robotics: Science and Systems XIV'
+  date: '2018-06-26'
+  link: https://doi.org/gkv2d2
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/lra.2018.2849588
+  title: 'Decentralized Ergodic Control: Distribution-Driven Sensing and Exploration
+    for Multiagent Systems'
+  authors:
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: IEEE Robotics and Automation Letters
+  date: '2018-10-01'
+  link: https://doi.org/gkv7tt
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15607/rss.2020.xvi.067
+  title: 'Ergodic Specifications for Flexible Swarm Control: From User Commands to
+    Persistent Adaptation'
+  authors:
+  - Ahalya Prabhakar
+  - Ian Abraham
+  - Annalisa Taylor
+  - Millicent Schlafly
+  - Katarina Popovic
+  - Giovani Diniz
+  - Brendan Teich
+  - Borislava Simidchieva
+  - Shane Clark
+  - Todd Murphey
+  publisher: 'Robotics: Science and Systems XVI'
+  date: '2020-07-12'
+  link: https://doi.org/gm2287
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/lra.2021.3135930
   title: Learning Cooperative Multi-Agent Policies With Partial Reward Decoupling
   authors:
   - Benjamin Freed
@@ -123,19 +884,31 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1109/TASE.2020.3043636
-  title: An Ergodic Measure for Active Learning From Equilibrium
+- id: doi:10.1109/tro.2022.3228130
+  title: Learning Stable Models for Prediction and Control
   authors:
+  - Giorgos Mamakoukas
   - Ian Abraham
-  - Ahalya Prabhakar
   - Todd D. Murphey
-  publisher: IEEE Transactions on Automation Science and Engineering
-  date: '2021-07-01'
-  link: https://doi.org/gsngmn
+  publisher: IEEE Transactions on Robotics
+  date: '2023-06-01'
+  link: https://doi.org/gsngmh
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1109/LRA.2020.2972836
+- id: doi:10.15607/rss.2017.xiii.052
+  title: Model-Based Control Using Koopman Operators
+  authors:
+  - Ian Abraham
+  - Gerardo de la Torre
+  - Todd Murphey
+  publisher: 'Robotics: Science and Systems XIII'
+  date: '2017-07-12'
+  link: https://doi.org/ggmzfx
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/lra.2020.2972836
   title: Model-Based Generalization Under Parameter Uncertainty Using Path Integral
     Control
   authors:
@@ -151,30 +924,7 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1109/TRO.2019.2923880
-  title: Active Learning of Dynamics for Data-Driven Control Using Koopman Operators
-  authors:
-  - Ian Abraham
-  - Todd D. Murphey
-  publisher: IEEE Transactions on Robotics
-  date: '2019-10-01'
-  link: https://doi.org/gg65zt
-  orcid: 0000-0003-0299-1760
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/LRA.2018.2849588
-  title: 'Decentralized Ergodic Control: Distribution-Driven Sensing and Exploration
-    for Multiagent Systems'
-  authors:
-  - Ian Abraham
-  - Todd D. Murphey
-  publisher: IEEE Robotics and Automation Letters
-  date: '2018-10-01'
-  link: https://doi.org/gkv7tt
-  orcid: 0000-0003-0299-1760
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1109/TRO.2017.2766265
+- id: doi:10.1109/tro.2017.2766265
   title: Real-Time Area Coverage and Target Localization Using Receding-Horizon Ergodic
     Exploration
   authors:
@@ -185,6 +935,21 @@
   publisher: IEEE Transactions on Robotics
   date: '2018-02-01'
   link: https://doi.org/gc2th7
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/862839
+  title: 'WHISKiT Physics: A three-dimensional mechanical model of the rat vibrissal
+    array'
+  authors:
+  - Nadina O. Zweifel
+  - Nicholas E. Bush
+  - Ian Abraham
+  - Todd D. Murphey
+  - Mitra J.Z. Hartmann
+  publisher: openRxiv
+  date: '2019-12-03'
+  link: https://doi.org/gk2nwd
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -213,5 +978,39 @@
   - coverage
   - ergodicity
   - ergodic control
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TRO.2022.3228130
+  title: Learning Stable Models for Prediction and Control
+  authors:
+  - Giorgos Mamakoukas
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: IEEE Transactions on Robotics
+  date: '2023-06-01'
+  link: https://doi.org/gsngmh
+  tags:
+  - Koopman operator theory
+  - optimal control
+  - learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TRO.2023.3284358
+  title: A Pareto-Optimal Local Optimization Framework for Multiobjective Ergodic
+    Search
+  authors:
+  - Zhongqiang Ren
+  - Akshaya Kesarimangalam Srinivasan
+  - Bhaskar Vundurthy
+  - Ian Abraham
+  - Howie Choset
+  publisher: IEEE Transactions on Robotics
+  date: '2023-10-01'
+  link: https://doi.org/gsngmk
+  tags:
+  - optimization
+  - multi-objective optimization
+  - ergodic search
+  - ergodicity
   plugin: sources.py
   file: sources.yaml
