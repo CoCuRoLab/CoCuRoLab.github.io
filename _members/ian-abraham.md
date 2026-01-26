@@ -1,6 +1,6 @@
 ---
 name: Ian Abraham
-image: images/members/ian.jpeg
+image: images/members/ian_psyco.jpg
 role: pi
 aliases:
   - I. Abraham
@@ -9,10 +9,14 @@ aliases:
   - Abraham
 links:
   google-scholar: https://scholar.google.com/citations?user=URUPd4sAAAAJ&hl=en
-  email: ian.abraham@yale.edu
+  email: ian.abraham@sydney.edu.au
   home-page: https://i-abr.github.io
 ---
 
-Dr. Ian Abraham is an Assistant Professor in Mechanical Engineering at Yale University. His research group is focused on developing real-time optimal control methods for robotic search and exploration, and data-efficient learning. Previously he was a postdoctoral researcher at the Robotics Institute at Carnegie Mellon University in the Biorobotics Lab. He received his PhD. and M.S. degrees in Mechanical Engineering from Northwestern University and the B.S. degree in Mechanical and Aerospace Engineering from Rutgers University. During his Ph.D. he also worked at the NVIDIA Seattle Robotics Lab where he worked on robust model-based control for large parameter uncertainty.
+Inquiries about our research, mission, news outreach, etc., should email {first name} dot {last name} @sydney.edu.au .
 
-His research interest lies at the intersection of robotics, optimal control, machine learning, and artificial intelligence with a focus on algorithmic development with formal guarantees. He is the recipient of the 2023 Best Paper Award at the Robotics: Science and Systems conference, the 2019 King-Sun Fu IEEE Transactions on Robotics Best Paper award, the Northwestern Belytschko Outstanding Research award for his dissertation, and the 2023 NSF CAREER award.
+Dr. Ian Abraham is a Senior Lecturer (approx. an Associate Prof. in US) in Electrical and Computer Engineering at the University of Sydney. 
+He is also the director of the Computational Methods for Curious Robots Lab that is situated across Yale University and the University of Sydney.
+
+Dr. Ian Abraham expertise spans robotics, optimi(z)sation, control, AI, and machine learning. Before joining the University of Sydney, he was an Assistant Professor in the Mechanical Engineering and Computer Science Departments at Yale University, following a Postdoctoral Scholar position at the Robotics Institute, Carnegie Mellon University. He received his PhD from Northwestern University. His teaching focuses on robotics, learning and control, while his research develops computational methods that enable robotic systems to intelligently interact with their environment and with other robots, particularly in extreme and remote settings. He has been recogni(z)sed with several prestigious awards, including an NSF CAREER award.
+

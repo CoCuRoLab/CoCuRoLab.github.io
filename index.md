@@ -1,42 +1,16 @@
 ---
 ---
-# About Us
+## About Us
 
-The **Co**mputational methods for **Cu**rious **Ro**bots Lab is a robotics research group focused on the development of rigorous mathematical, algorithmic, and optimization methods for robotic learning and control led by [Dr. Ian Abraham](_members/ian-abraham.md). 
+The **<u>Co</u>**mputational methods for **<u>Cu</u>**rious **<u>Ro</u>**bots Lab is a robotics research group focused on the development of rigorous mathematical, algorithmic, and optimization methods for robotic learning and control led by [Dr. Ian Abraham](members/ian-abraham). 
 
-Our theoretical breakthroughs are deployed on a wide range of diverse robotic systems to expand their utility and overall success in both domestic and the most remote and extreme environments. 
+Our research breakthroughs are deployed on a wide range of diverse robotic systems to expand their utility and overall success in the most extreme and remote environments. Check out our ongoing projects below! 
 
-# Interested in Joining?
-
-Those interested in joining our [group](team/index.md) are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms to expand the capabilities of robots, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation. 
-
-Other skills that are useful: 
-
-- ROS 1/2 experience 
-- Extensive Python and C/C++ coding experience
-- Exposure to modern ML/AI autodiff libraries like JAX/PyTorch
-- Proof writing abilities
-
-If this research sounds exciting then reach email a cover letter, CV, and how you would contribute to the CoCuRo Lab to ian {dot} abraham {at} sydney.edu.au with the subject line In. 
-
-
-
-<!-- {% include section.html %}
-
-<!-- ## Demo
-
-
-<div id="cube" style="--aspect-ratio:16/9;">
-  <script type="module" src="demos/simple.js"></script>
-</div> -->
-
-
-## Highlights
+## Ongoing Projects 
 
 {% capture text %}
 
 Our research is at the intersection of robotics, optimal control, and learning, developing algorithms that enable robots to reliably learn, explore, and navigate complex environments.
-
 
 {%
   include button.html
@@ -53,9 +27,10 @@ Our research is at the intersection of robotics, optimal control, and learning, 
   include feature.html
   image="images/bunny_inspection_abstract_fig.png"
   link="research"
-  title="Our Research"
+  title="Algorithms for Hybrid Autonomy"
   text=text
 %}
+
 
 {% capture text %}
 
@@ -82,16 +57,17 @@ Our work spans a wide range of problems in optimal control, learning, exploratio
   text=text
 %}
 
+
+
 {% capture text %}
 
-Lab members consist of a diverse group of undergraduate, graduate, and postdoctoral students working on several exciting research fronts. For inquiries about our research, joining the lab, our outreach please see our [contact page](contact). 
-
+Our research is at the intersection of robotics, optimal control, and learning, developing algorithms that enable robots to reliably learn, explore, and navigate complex environments.
 
 
 {%
   include button.html
-  link="team"
-  text="Meet our team"
+  link="research"
+  text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -101,8 +77,38 @@ Lab members consist of a diverse group of undergraduate, graduate, and postdocto
 
 {%
   include feature.html
-  image="images/summer_cookout_2022_0.jpg"
-  link="team"
-  title="Our Team"
+  image="images/bunny_inspection_abstract_fig.png"
+  link="research"
+  title="Our Research"
   text=text
 %}
+
+
+
+## Interested in [Joining](contact)?
+
+Those interested in joining our [group](team/index.md) are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms to expand the capabilities of robots, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation. 
+
+Other useful skills: 
+
+- ROS 1/2 or LCM experience 
+- Extensive Python and C/C++ coding experience
+- Exposure to modern ML/AI autodiff libraries like JAX/PyTorch
+- Proof writing abilities
+
+If this research sounds exciting then please fill out the following [form](https://forms.gle/PR5573FpCzZ3s2WDA) and detail how you would contribute to the CoCuRo Lab. 
+
+
+
+<!-- {% include section.html %}
+
+<!-- ## Demo
+
+
+<div id="cube" style="--aspect-ratio:16/9;">
+  <script type="module" src="demos/simple.js"></script>
+</div> -->
+
+
+
+

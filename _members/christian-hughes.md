@@ -1,6 +1,6 @@
 ---
 name: Christian Hughes
-image: 
+image: images/members/christian.jpg
 role: phd
 links:
   email: christian.hughes@yale.edu
