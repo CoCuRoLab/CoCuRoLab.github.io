@@ -33,9 +33,9 @@
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
-  --spacing: 2;
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --spacing: 1.5;
+  --rounded: 10px;
+  --shadow: 0 0 20px 5px var(--overlay);
 }
 
 /*# sourceMappingURL=-theme.css.map */

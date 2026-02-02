@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="en" data-dark="true">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -386,64 +386,7 @@
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
-  <style>
-    .bubble {
-      animation: float 2s ease-out both infinite var(--delay);
-    }
-    @keyframes float {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        transform: translateY(0);
-        opacity: 0;
-      }
-      75% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-40px);
-      }
-    }
-  </style>
-  <g fill="currentColor" opacity="0.5">
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
-  </g>
-  <path fill="#38bdf8" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L -19.5 11.25
-      L 0 22.5
-      L 19.5 11.25
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="#bae6fd" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L 0 0
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="none" stroke="currentColor" stroke-width="5" d="
-      M -18 -53
-      L -10 -53
-      L -10 -29.2
-      L -30.3 -17.5
-      L -30.3 17.5
-      L 0 35
-      L 30.3 17.5
-      L 30.3 -17.5
-      L 10 -29.2
-      L 10 -53
-      L 18 -53
-    "></path>
-</svg>
-
+          <img src="/images/logo.png" alt="logo">
         
       </span>
     
@@ -467,12 +410,6 @@
       
         <a href="/research/" data-tooltip="Published works">
           Publications
-        </a>
-      
-    
-      
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
         </a>
       
     
@@ -524,21 +461,47 @@
 
 <p>Our research breakthroughs are deployed on a wide range of diverse robotic systems to expand their utility and overall success in the most extreme and remote environments. Check out our ongoing projects below!</p>
 
-<h2 id="ongoing-projects">Ongoing Projects</h2>
+<h2 id="ongoing-research-projects">Ongoing Research Projects</h2>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Algorithms for Hybrid Autonomy">
-    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Algorithms for Hybrid Autonomy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Whole-Body Control for Humanoid &amp; Legged Robots">
+    <img src="/images/circus_robot.gif" loading="lazy" alt="Whole-Body Control for Humanoid &amp; Legged Robots" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Algorithms for Hybrid Autonomy</p>
+      <p class="feature-title">Whole-Body Control for Humanoid &amp; Legged Robots</p>
     
     
-<p>Our research is at the intersection of robotics, optimal control, and learning, developing algorithms that enable robots to reliably learn, explore, and navigate complex environments.</p>
+<p>We develop whole-body control methods that enable robots to perform agile and dexterous motor skills. Our approach combines optimization and learning to achieve robust and efficient robot behavior across diverse platforms and applications.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+<c>Current Research Topic Areas</c>
+<!-- - Optimization-based control -->
+<ul>
+  <li>Learning temporal-awareness in control policies
+<!-- - Learning cyclical policies -->
+</li>
+  <li>Sample-based whole-body control</li>
+  <li>Collaborative whole-body loco-manipulation</li>
+  <li>Information theory for contact planning
+<!-- - Multi-objective task planning -->
+</li>
+</ul>
+
+<!-- 
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/research"
+      
+      data-style="bare"
+      
+        data-flip
+      
+      aria-label="fa-solid fa-arrow-right"
+    >
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>See our publications</span>
@@ -546,23 +509,45 @@
     </a>
   </div>
 
+ -->
+
 
   </div>
 </div>
 
 <div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/images/allegro_manip.gif" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Marine/Ocean Robotics">
+    <img src="/images/gulf.gif" loading="lazy" alt="Marine/Ocean Robotics" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Projects</p>
+      <p class="feature-title">Marine/Ocean Robotics</p>
     
     
-<p>Our work spans a wide range of problems in optimal control, learning, exploration, manipulation, locomotion, and multi-agent coordination. We regularly provide demos and readily deployable open-source code.</p>
+<p>We develop optimization methods for long-term autonomy in marine and ocean environments. Our approach combines GPU accelerated programming and algorithmic development, adaptive-time planning and control, and concepts from variational inference, and optimal transport to achieve robust autonomy for underwater robotic systems.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+<c>Current Research Topic Areas</c>
+<ul>
+  <li>Optimization for long-term autonomy</li>
+  <li>Robust optimization via inference</li>
+  <li>Distributed/GPU accelerated autonomous planning</li>
+</ul>
+
+<!-- 
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/projects"
+      
+      data-style="bare"
+      
+        data-flip
+      
+      aria-label="fa-solid fa-arrow-right"
+    >
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>Browse our projects</span>
@@ -570,29 +555,53 @@
     </a>
   </div>
 
+ -->
+
 
   </div>
 </div>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Our Research">
-    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Algorithm Development &amp; Reinforcement Learning">
+    <img src="/images/loco_mujoco.gif" loading="lazy" alt="Algorithm Development &amp; Reinforcement Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Research</p>
+      <p class="feature-title">Algorithm Development &amp; Reinforcement Learning</p>
     
     
-<p>Our research is at the intersection of robotics, optimal control, and learning, developing algorithms that enable robots to reliably learn, explore, and navigate complex environments.</p>
+<p>We develop efficient algorithms for reinforcement learning and robotic control. Our approach integrates novel techniques from statistical analysis, trajectory optimization, and hybrid control to enable efficient policy optimization and training.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+<c>Current Research Topic Areas</c>
+<ul>
+  <li>Stochastic smoothing for non-differentiable learning</li>
+  <li>Fast and reliable policy optimization</li>
+  <li>Decoupled policy gradients for learning vision-to-action policies</li>
+</ul>
+
+<!-- 
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/research"
+      
+      data-style="bare"
+      
+        data-flip
+      
+      aria-label="fa-solid fa-arrow-right"
+    >
       <i class="icon fa-solid fa-arrow-right"></i>
       
         <span>See our publications</span>
       
     </a>
   </div>
+
+ -->
 
 
   </div>
@@ -661,7 +670,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:ian.abraham@yale.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a class="button" href="mailto:ian.abraham@sydney.edu.au" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
