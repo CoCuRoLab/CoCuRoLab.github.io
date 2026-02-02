@@ -16,6 +16,7 @@ Other useful skills:
 - Extensive Python and C/C++ coding experience
 - Exposure to modern ML/AI autodiff libraries like JAX/PyTorch
 - Proof writing abilities
+- Exposure/experience with programming a robotic systems 
 
 If this research sounds exciting then please fill out the following [form](https://forms.gle/PR5573FpCzZ3s2WDA) and detail how you would contribute to the CoCuRo Lab. 
 

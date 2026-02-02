@@ -99,6 +99,21 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2410.10599
+  title: Ergodic Trajectory Optimization on Generalized Domains Using Maximum Mean
+    Discrepancy
+  authors:
+  - Christian Hughes
+  - Houston Warren
+  - Darrick Lee
+  - Fabio Ramos
+  - Ian Abraham
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbnc85
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.48550/arxiv.2503.05026
   title: Ergodic Exploration over Meshable Surfaces
   authors:

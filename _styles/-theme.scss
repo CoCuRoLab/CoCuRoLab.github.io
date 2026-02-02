@@ -43,9 +43,9 @@
   --bold: 600;
 
   // text line spacing
-  --spacing: 2;
+  --spacing: 1.5;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 10px;
+  --shadow: 0 0 20px 5px var(--overlay);
 }

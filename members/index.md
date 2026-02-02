@@ -19,8 +19,10 @@ nav:
 
 ## {% include icon.html icon="fa-solid fa-users" %} Alum
 
+{% include list.html data="members" component="portrait" filters="role: alum" %}
+
 <!-- Simple text-only list of alumni pulled from the _members collection -->
-<div class="alum-names">
+<!-- <div class="alum-names">
 <ul style="gap: 0.5rem;">
 {% for person in site.members %}
   {% if person.role == "alum" %}
@@ -31,8 +33,8 @@ nav:
     </li>
   {% endif %}
 {% endfor %}
-</ul>
-</div>
+</ul> 
+</div> -->
 
 
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
