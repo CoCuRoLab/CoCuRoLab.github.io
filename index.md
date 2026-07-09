@@ -10,17 +10,12 @@ Our research breakthroughs are deployed on a wide range of diverse robotic syste
 
 {% capture text %}
 
-We develop whole-body control methods that enable robots to perform agile and dexterous motor skills. Our approach combines optimization and learning to achieve robust and efficient robot behavior across diverse platforms and applications.
+We develop theory and algorithms for ergodic control, steering robots to spend time in a space in proportion to its information or coverage value. This gives robots principled, scalable strategies for search and exploration under real-world constraints like limited sensing, energy, and time.
 
 <c>Current Research Topic Areas</c>
-<!-- - Optimization-based control -->
-- Learning temporal-awareness in control policies
-<!-- - Learning cyclical policies -->
-- Sample-based whole-body control
-- Collaborative whole-body loco-manipulation
-- Information theory for contact planning
-<!-- - Multi-objective task planning -->
-
+- Time- and scale-optimal coverage
+- Exploration over complex and non-Euclidean domains
+- Safety- and reachability-guaranteed exploration
 
 <!-- {%
   include button.html
@@ -35,20 +30,20 @@ We develop whole-body control methods that enable robots to perform agile and de
 
 {%
   include feature.html
-  image="images/circus_robot.gif"
+  image="images/bunny_inspection_abstract_fig.png"
   link="research"
-  title="Whole-Body Control for Humanoid & Legged Robots"
+  title="Theory of Search & Exploration"
   text=text
 %}
 
 {% capture text %}
 
-We develop optimization methods for long-term autonomy in marine and ocean environments. Our approach combines GPU accelerated programming and algorithmic development, adaptive-time planning and control, and concepts from variational inference, and optimal transport to achieve robust autonomy for underwater robotic systems.
+We combine model-based structure with learning, using data-driven dynamics models, differentiable simulation, and distributionally robust control, so robots can plan and act reliably, from contact-rich manipulation to legged locomotion and long-term field deployment.
 
 <c>Current Research Topic Areas</c>
-- Optimization for long-term autonomy
-- Robust optimization via inference
-- Distributed/GPU accelerated autonomous planning 
+- Data-driven dynamics via Koopman operators
+- Contact-rich manipulation through differentiable simulation
+- Distributionally robust and Stein-variational control for uncertain and field environments
 
 <!-- {%
   include button.html
@@ -63,9 +58,9 @@ We develop optimization methods for long-term autonomy in marine and ocean envir
 
 {%
   include feature.html
-  image="images/gulf.gif"
+  image="images/hand_rubix.jpg"
   link="research"
-  title="Marine/Ocean Robotics"
+  title="Structured Learning and Control"
   flip=true
   text=text
 %}
@@ -73,12 +68,12 @@ We develop optimization methods for long-term autonomy in marine and ocean envir
 
 {% capture text %}
 
-We develop efficient algorithms for reinforcement learning and robotic control. Our approach integrates novel techniques from statistical analysis, trajectory optimization, and hybrid control to enable efficient policy optimization and training.
+We study how teams of robots coordinate to search, explore, and act together, developing multi-agent ergodic control and coordination algorithms for heterogeneous robot teams.
 
 <c>Current Research Topic Areas</c>
-- Stochastic smoothing for non-differentiable learning
-- Fast and reliable policy optimization
-- Decoupled policy gradients for learning vision-to-action policies
+- Multi-agent ergodic exploration under sensing/visibility constraints
+- Multi-objective coordination via branch-and-bound and Pareto-optimal methods
+- Diverse, decentralized search strategies across robot teams
 
 
 <!-- {%
@@ -94,27 +89,27 @@ We develop efficient algorithms for reinforcement learning and robotic control. 
 
 {%
   include feature.html
-  image="images/loco_mujoco.gif"
+  image="images/multi-agent-erg.gif"
   link="research"
-  title="Algorithm Development & Reinforcement Learning"
+  title="Collective Intelligence"
   text=text
 %}
 
 
 
-## Interested in [Joining](contact)?
+## Interested in [Joining](contact)? We are currently recruiting! 
 
-Those interested in joining our [group](team/index.md) are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms to expand the capabilities of robots, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation. 
+Those interested in joining our [group](team/index.md) are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms and deploy them on physical robots to expand the capabilities, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation. 
 
 Other useful skills: 
 
 - ROS 1/2 or LCM experience 
 - Extensive Python and C/C++ coding experience
 - Exposure to modern ML/AI autodiff libraries like JAX/PyTorch
-- Proof writing abilities
+- Excellent speaking/writing abilities
 
-If this research sounds exciting then please fill out the following [form](https://forms.gle/PR5573FpCzZ3s2WDA) and detail how you would contribute to the CoCuRo Lab. 
-
+If this sounds like you then please submit an [expression of interest (EOI)](https://www.sydney.edu.au/engineering/study/postgraduate-research.html) via this [form](https://sydney.au1.qualtrics.com/jfe/form/SV_6hQBMH6Xxo4BZ78).
+Make sure to list Dr. Ian Abraham, School of Electrical and Computer Engineering as a potential advisor. 
 
 
 <!-- {% include section.html %}

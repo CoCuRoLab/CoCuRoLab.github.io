@@ -1,5 +1,60 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.48550/arxiv.2605.19029
+  title: Distributionally Robust Control via Stein Variational Inference for Contact-Rich
+    Manipulation
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Victor Vantilborgh
+  - Harish Ravichandar
+  - Tom Lefebvre
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hb9vk9
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2605.13442
+  title: Asymptotically Optimal Ergodic Coverage on Generalized Motion Fields
+  authors:
+  - Christian Hughes
+  - Yilang Liu
+  - Yanis Lahrach
+  - Julia Engdahl
+  - Houston Warren
+  - Darrick Lee
+  - Fabio Ramos
+  - Travis Miles
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hb9vmb
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2604.01034
+  title: Stein Variational Uncertainty-Adaptive Model Predictive Control
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hb9vmc
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2604.01023
+  title: Infinite-Horizon Ergodic Control via Kernel Mean Embeddings
+  authors:
+  - Christian Hughes
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-01-01'
+  link: https://doi.org/hb9vmd
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TRO.2026.3654384
   title: Koopman Operators in Robot Learning
   authors:
@@ -29,6 +84,68 @@
   publisher: Springer Proceedings in Advanced Robotics
   date: '2025-11-02'
   link: https://doi.org/hbkcgf
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-032-09967-9_20
+  title: 'RAnGE: Reachability Analysis for Guaranteed Ergodicity'
+  authors:
+  - Henry Berger
+  - Ian Abraham
+  publisher: Springer Proceedings in Advanced Robotics
+  date: '2025-10-30'
+  link: https://doi.org/hb9vmf
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2512.05229
+  title: 'Search at Scale: Improving Numerical Conditioning of Ergodic Coverage Optimization
+    for Multi-Scale Domains'
+  authors:
+  - Yanis Lahrach
+  - Christian Hughes
+  - Ian Abraham
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb9vmg
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2510.20483
+  title: Dual Control Reference Generation for Optimal Pick-and-Place Execution under
+    Payload Uncertainty
+  authors:
+  - Victor Vantilborgh
+  - Hrishikesh Sathyanarayan
+  - Guillaume Crevecoeur
+  - Ian Abraham
+  - Tom Lefebvre
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb9vmh
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2510.18137
+  title: 'Quality Over Quantity: Curating Contact-Based Robot Datasets Improves Learning'
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Victor Vantilborgh
+  - Ian Abraham
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb9vmj
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2505.12214
+  title: Behavior Synthesis via Contact-Aware Fisher Information Maximization
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Ian Abraham
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb9vmk
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -85,6 +202,23 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2408.04200
+  title: Koopman Operators in Robot Learning
+  authors:
+  - Lu Shi
+  - Masih Haseli
+  - Giorgos Mamakoukas
+  - Daniel Bruder
+  - Ian Abraham
+  - Todd Murphey
+  - Jorge Cortes
+  - Konstantinos Karydis
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbkcgq
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/icra55743.2025.11128670
   title: Multi-Agent Ergodic Exploration Under Smoke-Based Time-Varying Sensor Visibility
     Constraints
@@ -128,6 +262,18 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2503.02171
+  title: Is Bellman Equation Enough for Learning Control?
+  authors:
+  - Haoxiang You
+  - Lekan Molu
+  - Ian Abraham
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb9vmn
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.48550/arxiv.2503.04998
   title: Multi-Agent Ergodic Exploration under Smoke-Based, Time-Varying Sensor Visibility
     Constraints
@@ -139,6 +285,28 @@
   publisher: arXiv
   date: '2025-01-01'
   link: https://doi.org/hbkcgn
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2404.03186
+  title: 'RAnGE: Reachability Analysis for Guaranteed Ergodicity'
+  authors:
+  - Henry Berger
+  - Ian Abraham
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hb9vmp
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2411.10935
+  title: Exciting Contact Modes in Differentiable Simulations for Robot Learning
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Ian Abraham
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hb9vmq
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -157,20 +325,16 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.48550/arxiv.2408.04200
-  title: Koopman Operators in Robot Learning
+- id: doi:10.48550/arxiv.2406.11767
+  title: Stein Variational Ergodic Search
   authors:
-  - Lu Shi
-  - Masih Haseli
-  - Giorgos Mamakoukas
-  - Daniel Bruder
+  - Darrick Lee
+  - Cameron Lerch
+  - Fabio Ramos
   - Ian Abraham
-  - Todd Murphey
-  - Jorge Cortes
-  - Konstantinos Karydis
   publisher: arXiv
   date: '2024-01-01'
-  link: https://doi.org/hbkcgq
+  link: https://doi.org/hb9vmr
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -204,6 +368,21 @@
   publisher: 2024 IEEE International Conference on Robotics and Automation (ICRA)
   date: '2024-05-13'
   link: https://doi.org/hbkcgs
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2310.09470
+  title: 'Energy-Aware Ergodic Search: Continuous Exploration for Multi-Agent Systems
+    with Battery Constraints'
+  authors:
+  - Adam Seewald
+  - Cameron J. Lerch
+  - "Marvin Chanc\xE1n"
+  - Aaron M. Dollar
+  - Ian Abraham
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbkcgw
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -256,21 +435,6 @@
   publisher: Springer Proceedings in Advanced Robotics
   date: '2024-01-01'
   link: https://doi.org/hbkcgv
-  orcid: 0000-0003-0299-1760
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.48550/arxiv.2310.09470
-  title: 'Energy-Aware Ergodic Search: Continuous Exploration for Multi-Agent Systems
-    with Battery Constraints'
-  authors:
-  - Adam Seewald
-  - Cameron J. Lerch
-  - "Marvin Chanc\xE1n"
-  - Aaron M. Dollar
-  - Ian Abraham
-  publisher: arXiv
-  date: '2023-01-01'
-  link: https://doi.org/hbkcgw
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -340,6 +504,18 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2305.11643
+  title: Time Optimal Ergodic Search
+  authors:
+  - Dayi Dong
+  - Henry Berger
+  - Ian Abraham
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hb9vmt
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/02783649221083331
   title: Hybrid control for combining model-based and model-free reinforcement learning
   authors:
@@ -351,6 +527,19 @@
   publisher: The International Journal of Robotics Research
   date: '2022-06-02'
   link: https://doi.org/grdrqv
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2211.04310
+  title: Safety-Critical Ergodic Exploration in Cluttered Environments via Control
+    Barrier Functions
+  authors:
+  - Cameron Lerch
+  - Dayi Dong
+  - Ian Abraham
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hb9vmv
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -441,6 +630,19 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2203.03865
+  title: A Second-Order Reachable Sets Computation Scheme via a Cauchy-Type Variational
+    Hamilton-Jacobi-Isaacs Equation
+  authors:
+  - Lekan Molu
+  - Ian Abraham
+  - Sylvia Herbert
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hb9vmw
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/icra46639.2022.9812037
   title: Multi-Agent Dynamic Ergodic Search with Low-Information Sensors
   authors:
@@ -452,6 +654,18 @@
   publisher: 2022 International Conference on Robotics and Automation (ICRA)
   date: '2022-05-23'
   link: https://doi.org/hbkcg9
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2005.04291
+  title: Learning Stable Models for Prediction and Control
+  authors:
+  - Giorgos Mamakoukas
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchp
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -525,6 +739,18 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.03552
+  title: An Ergodic Measure for Active Learning From Equilibrium
+  authors:
+  - Ian Abraham
+  - Ahalya Prabhakar
+  - Todd D. Murphey
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbkchk
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.48550/arxiv.2010.12070
   title: Dynamics and Domain Randomized Gait Modulation with Bezier Curves for Sim-to-Real
     Legged Locomotion
@@ -587,18 +813,6 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.48550/arxiv.2006.03552
-  title: An Ergodic Measure for Active Learning From Equilibrium
-  authors:
-  - Ian Abraham
-  - Ahalya Prabhakar
-  - Todd D. Murphey
-  publisher: arXiv
-  date: '2020-01-01'
-  link: https://doi.org/hbkchk
-  orcid: 0000-0003-0299-1760
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.48550/arxiv.2006.03636
   title: Hybrid Control for Learning Motor Skills
   authors:
@@ -626,18 +840,6 @@
   publisher: arXiv
   date: '2020-01-01'
   link: https://doi.org/hbkchn
-  orcid: 0000-0003-0299-1760
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.48550/arxiv.2005.04291
-  title: Learning Stable Models for Prediction and Control
-  authors:
-  - Giorgos Mamakoukas
-  - Ian Abraham
-  - Todd D. Murphey
-  publisher: arXiv
-  date: '2020-01-01'
-  link: https://doi.org/hbkchp
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
@@ -841,6 +1043,17 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.15607/rss.2025.xxi.118
+  title: Behavior Synthesis via Contact-Aware Fisher Information Maximization
+  authors:
+  - Hrishikesh Sathyanarayan
+  - Ian Abraham
+  publisher: 'Robotics: Science and Systems XXI'
+  date: '2025-06-21'
+  link: https://doi.org/hb9vmx
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.15607/rss.2018.xiv.045
   title: Data-Driven Measurement Models for Active Localization in Sparse Environments
   authors:
@@ -950,6 +1163,31 @@
   publisher: IEEE Transactions on Robotics
   date: '2018-02-01'
   link: https://doi.org/gc2th7
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15607/rss.2024.xx.001
+  title: Stein Variational Ergodic Search
+  authors:
+  - Darrick Lee
+  - Cameron Lerch
+  - Fabio Ramos
+  - Ian Abraham
+  publisher: 'Robotics: Science and Systems XX'
+  date: '2024-07-15'
+  link: https://doi.org/hb9vmz
+  orcid: 0000-0003-0299-1760
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.15607/rss.2023.xix.082
+  title: Time Optimal Ergodic Search
+  authors:
+  - Dayi Dong
+  - Henry Berger
+  - Ian Abraham
+  publisher: 'Robotics: Science and Systems XIX'
+  date: '2023-07-10'
+  link: https://doi.org/gsngdp
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
