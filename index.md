@@ -95,7 +95,13 @@ We study how teams of robots coordinate to search, explore, and act together, de
   text=text
 %}
 
+## Try It Yourself
 
+Drag around one of our robots, then get a feel for the idea behind our ergodic search research by marking points of interest and watching a search agent balance lingering where it matters against covering the rest of the space.
+
+
+<div class="ergodic-demo"></div>
+<script type="module" src="demos/ergodic-demo.js"></script>
 
 ## Interested in [Joining](contact)? We are currently recruiting! 
 
@@ -109,18 +115,5 @@ Other useful skills:
 - Excellent speaking/writing abilities
 
 If this sounds like you then please submit an [expression of interest (EOI)](https://www.sydney.edu.au/engineering/study/postgraduate-research.html) via this [form](https://sydney.au1.qualtrics.com/jfe/form/SV_6hQBMH6Xxo4BZ78).
-Make sure to list Dr. Ian Abraham, School of Electrical and Computer Engineering as a potential advisor. 
-
-
-<!-- {% include section.html %}
-
-<!-- ## Demo
-
-
-<div id="cube" style="--aspect-ratio:16/9;">
-  <script type="module" src="demos/simple.js"></script>
-</div> -->
-
-
-
+Make sure to list Dr. Ian Abraham, School of Electrical and Computer Engineering as a potential advisor if possible. 
 
