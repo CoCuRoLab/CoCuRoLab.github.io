@@ -1,0 +1,66 @@
+.robot-viewer,
+.ergodic-demo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--background-alt);
+}
+
+.robot-viewer canvas,
+.ergodic-demo canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ergodic-demo canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.demo-hint {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 2;
+  padding: 6px 12px;
+  border-radius: var(--rounded);
+  background: var(--overlay);
+  backdrop-filter: blur(6px);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.demo-hint[data-hidden] {
+  opacity: 0;
+}
+
+.demo-reset {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+}
+
+.demo-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray);
+  font-family: var(--body);
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=demo.css.map */

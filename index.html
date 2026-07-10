@@ -159,6 +159,10 @@
   
 
   
+    <link href="/_styles/demo.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/feature.css" rel="stylesheet">
   
 
@@ -276,6 +280,8 @@
 
   
     <link href="/_styles/util.css" rel="stylesheet">
+  
+
   
 
   
@@ -464,27 +470,21 @@
 <h2 id="ongoing-research-projects">Ongoing Research Projects</h2>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Whole-Body Control for Humanoid &amp; Legged Robots">
-    <img src="/images/circus_robot.gif" loading="lazy" alt="Whole-Body Control for Humanoid &amp; Legged Robots" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Theory of Search &amp; Exploration">
+    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Theory of Search &amp; Exploration" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Whole-Body Control for Humanoid &amp; Legged Robots</p>
+      <p class="feature-title">Theory of Search &amp; Exploration</p>
     
     
-<p>We develop whole-body control methods that enable robots to perform agile and dexterous motor skills. Our approach combines optimization and learning to achieve robust and efficient robot behavior across diverse platforms and applications.</p>
+<p>We develop theory and algorithms for ergodic control, steering robots to spend time in a space in proportion to its information or coverage value. This gives robots principled, scalable strategies for search and exploration under real-world constraints like limited sensing, energy, and time.</p>
 
 <c>Current Research Topic Areas</c>
-<!-- - Optimization-based control -->
 <ul>
-  <li>Learning temporal-awareness in control policies
-<!-- - Learning cyclical policies -->
-</li>
-  <li>Sample-based whole-body control</li>
-  <li>Collaborative whole-body loco-manipulation</li>
-  <li>Information theory for contact planning
-<!-- - Multi-objective task planning -->
-</li>
+  <li>Time- and scale-optimal coverage</li>
+  <li>Exploration over complex and non-Euclidean domains</li>
+  <li>Safety- and reachability-guaranteed exploration</li>
 </ul>
 
 <!-- 
@@ -516,21 +516,21 @@
 </div>
 
 <div class="feature" data-flip="">
-  <a href="/research" class="feature-image" aria-label="Marine/Ocean Robotics">
-    <img src="/images/gulf.gif" loading="lazy" alt="Marine/Ocean Robotics" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Structured Learning and Control">
+    <img src="/images/hand_rubix.jpg" loading="lazy" alt="Structured Learning and Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Marine/Ocean Robotics</p>
+      <p class="feature-title">Structured Learning and Control</p>
     
     
-<p>We develop optimization methods for long-term autonomy in marine and ocean environments. Our approach combines GPU accelerated programming and algorithmic development, adaptive-time planning and control, and concepts from variational inference, and optimal transport to achieve robust autonomy for underwater robotic systems.</p>
+<p>We combine model-based structure with learning, using data-driven dynamics models, differentiable simulation, and distributionally robust control, so robots can plan and act reliably, from contact-rich manipulation to legged locomotion and long-term field deployment.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Optimization for long-term autonomy</li>
-  <li>Robust optimization via inference</li>
-  <li>Distributed/GPU accelerated autonomous planning</li>
+  <li>Data-driven dynamics via Koopman operators</li>
+  <li>Contact-rich manipulation through differentiable simulation</li>
+  <li>Distributionally robust and Stein-variational control for uncertain and field environments</li>
 </ul>
 
 <!-- 
@@ -562,21 +562,21 @@
 </div>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Algorithm Development &amp; Reinforcement Learning">
-    <img src="/images/loco_mujoco.gif" loading="lazy" alt="Algorithm Development &amp; Reinforcement Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Collective Intelligence">
+    <img src="/images/multi-agent-erg.gif" loading="lazy" alt="Collective Intelligence" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Algorithm Development &amp; Reinforcement Learning</p>
+      <p class="feature-title">Collective Intelligence</p>
     
     
-<p>We develop efficient algorithms for reinforcement learning and robotic control. Our approach integrates novel techniques from statistical analysis, trajectory optimization, and hybrid control to enable efficient policy optimization and training.</p>
+<p>We study how teams of robots coordinate to search, explore, and act together, developing multi-agent ergodic control and coordination algorithms for heterogeneous robot teams.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Stochastic smoothing for non-differentiable learning</li>
-  <li>Fast and reliable policy optimization</li>
-  <li>Decoupled policy gradients for learning vision-to-action policies</li>
+  <li>Multi-agent ergodic exploration under sensing/visibility constraints</li>
+  <li>Multi-objective coordination via branch-and-bound and Pareto-optimal methods</li>
+  <li>Diverse, decentralized search strategies across robot teams</li>
 </ul>
 
 <!-- 
@@ -607,9 +607,16 @@
   </div>
 </div>
 
-<h2 id="interested-in-joining">Interested in <a href="contact">Joining</a>?</h2>
+<h2 id="try-it-yourself">Try It Yourself</h2>
 
-<p>Those interested in joining our <a href="team/index.md">group</a> are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms to expand the capabilities of robots, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation.</p>
+<p>Drag around one of our robots, then get a feel for the idea behind our ergodic search research by marking points of interest and watching a search agent balance lingering where it matters against covering the rest of the space.</p>
+
+<div class="ergodic-demo"></div>
+<script type="module" src="demos/ergodic-demo.js"></script>
+
+<h2 id="interested-in-joining-we-are-currently-recruiting">Interested in <a href="contact">Joining</a>? We are currently recruiting!</h2>
+
+<p>Those interested in joining our <a href="team/index.md">group</a> are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms and deploy them on physical robots to expand the capabilities, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation.</p>
 
 <p>Other useful skills:</p>
 
@@ -617,36 +624,11 @@
   <li>ROS 1/2 or LCM experience</li>
   <li>Extensive Python and C/C++ coding experience</li>
   <li>Exposure to modern ML/AI autodiff libraries like JAX/PyTorch</li>
-  <li>Proof writing abilities</li>
+  <li>Excellent speaking/writing abilities</li>
 </ul>
 
-<p>If this research sounds exciting then please fill out the following <a href="https://forms.gle/PR5573FpCzZ3s2WDA">form</a> and detail how you would contribute to the CoCuRo Lab.</p>
-
-<!--
-  </section>
-
-  
-  
-  
-
-  <section
-    class="background"
-    data-size="page"
-    
-    
-  >
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
-
-<!-- ## Demo
-
-
-<div id="cube" style="--aspect-ratio:16/9;">
-  <script type="module" src="demos/simple.js"></script>
-</div> -->
+<p>If this sounds like you then please submit an <a href="https://www.sydney.edu.au/engineering/study/postgraduate-research.html">expression of interest (EOI)</a> via this <a href="https://sydney.au1.qualtrics.com/jfe/form/SV_6hQBMH6Xxo4BZ78">form</a>.
+Make sure to list Dr. Ian Abraham, School of Electrical and Computer Engineering as a potential advisor if possible.</p>
   </section>
 
 
