@@ -1,8 +1,9 @@
 .citation {
   display: flex;
   margin: 15px 0;
+  border: 1px solid var(--border);
   border-radius: var(--rounded);
-  background: var(--background);
+  background: var(--surface);
   overflow: hidden;
   box-shadow: var(--shadow);
 }

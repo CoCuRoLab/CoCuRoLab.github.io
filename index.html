@@ -86,7 +86,7 @@
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Inter:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;family=Plus+Jakarta%20Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -159,10 +159,6 @@
   
 
   
-    <link href="/_styles/demo.css" rel="stylesheet">
-  
-
-  
     <link href="/_styles/feature.css" rel="stylesheet">
   
 
@@ -199,6 +195,10 @@
   
 
   
+    <link href="/_styles/hero.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/highlight.css" rel="stylesheet">
   
 
@@ -220,6 +220,10 @@
 
   
     <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/papers.css" rel="stylesheet">
   
 
   
@@ -348,18 +352,6 @@
 <script src="https://unpkg.com/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script> -->
-<script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
-<script type="importmap">
-  {
-    "imports": {
-      "three": "https://unpkg.com/three@v0.155.0/build/three.module.js",
-      "three/addons/": "https://unpkg.com/three@v0.155.0/examples/jsm/",
-      "three/examples/jsm/": "https://unpkg.com/three@v0.155.0/examples/jsm/",
-      "urdf-loader" : "https://unpkg.com/urdf-loader@0.12.0/src/URDFLoader.js"
-    }
-  }
-</script>
 <!-- include all js in scripts folder -->
 
 
@@ -384,10 +376,7 @@
 
 
 
-
-
-
-<header class="background" style="--image: url('/images/robot-friends.jpg')" data-dark="true" data-big>
+<header>
   <a href="/" class="home">
     
       <span class="logo">
@@ -460,163 +449,348 @@
   
   
 
-  <section class="background" data-size="page">
-    <h2 id="about-us">About Us</h2>
+  <section class="background" data-size="full">
+    <!--
+  background: ;
+  dark: ;
+  size: full;
+-->
 
-<p>The <strong><u>Co</u></strong>mputational methods for <strong><u>Cu</u></strong>rious <strong><u>Ro</u></strong>bots Lab is a robotics research group focused on the development of rigorous mathematical, algorithmic, and optimization methods for robotic learning and control led by <a href="members/ian-abraham">Dr. Ian Abraham</a>.</p>
-
-<p>Our research breakthroughs are deployed on a wide range of diverse robotic systems to expand their utility and overall success in the most extreme and remote environments. Check out our ongoing projects below!</p>
-
-<h2 id="ongoing-research-projects">Ongoing Research Projects</h2>
-
-<div class="feature">
-  <a href="/research" class="feature-image" aria-label="Theory of Search &amp; Exploration">
-    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Theory of Search &amp; Exploration" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
+<div class="hero" style="--image: url('/images/robot-friends.jpg')">
+  <div class="hero-inner">
     
-      <p class="feature-title">Theory of Search &amp; Exploration</p>
+      <p class="hero-eyebrow">University of Sydney · Robotics, Learning &amp; Control</p>
     
+    <h1 class="hero-title">Computational methods for curious robots</h1>
     
-<p>We develop theory and algorithms for ergodic control, steering robots to spend time in a space in proportion to its information or coverage value. This gives robots principled, scalable strategies for search and exploration under real-world constraints like limited sensing, energy, and time.</p>
-
-<c>Current Research Topic Areas</c>
-<ul>
-  <li>Time- and scale-optimal coverage</li>
-  <li>Exploration over complex and non-Euclidean domains</li>
-  <li>Safety- and reachability-guaranteed exploration</li>
-</ul>
-
-<!-- 
+      <p class="hero-text">We develop rigorous mathematical, algorithmic, and optimization methods for robotic learning and control. Led by <a href="members/ian-abraham">Dr. Ian Abraham</a>.
+</p>
+    
+    <div class="hero-actions">
+      
+        
 
 
 
   <div class="button-wrapper">
-    <a
-      class="button"
-      href="/research"
-      
-      data-style="bare"
-      
-        data-flip
-      
-      aria-label="fa-solid fa-arrow-right"
-    >
+    <a class="button" href="/#latest-work" data-style="" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>See our publications</span>
+        <span>See our latest work</span>
       
     </a>
   </div>
 
- -->
+
+      
+      
+        
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/contact" data-style="outline" aria-label="button">
+      
+      
+        <span>Join the lab</span>
+      
+    </a>
+  </div>
+
+
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="latest-work">Latest Work</h2>
+
+<p>New papers and preprints from the lab. The full list lives on our <a href="research">publications page</a>.</p>
+
+<div class="papers">
+  
+    
+    <a class="paper" href="https://doi.org/hcp3qb">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="true">
+          Preprint
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">Time-Optimal Ergodic Retrieval</span>
+      <span class="paper-authors">
+        
+          Christian Sulana, 
+        
+          <b>Christian Hughes</b>, 
+        
+          <b>Ian Abraham</b>
+        
+        
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+    
+    <a class="paper" href="https://doi.org/hcp3qx">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="true">
+          Preprint
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics</span>
+      <span class="paper-authors">
+        
+          Zeyu Shen, 
+        
+          <b>Haoxiang You</b>, 
+        
+          <b>Yilang Liu</b>, 
+        
+          Zhicheng Zheng, 
+        
+          Lihan Zha, 
+        
+          Kashu Yamazaki
+        
+        , et al.
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+    
+    <a class="paper" href="https://doi.org/hcp3qz">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="true">
+          Preprint
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">Accelerating Visual Policy Learning with Sampling-Based Model Predictive Control</span>
+      <span class="paper-authors">
+        
+          <b>Yilang Liu</b>, 
+        
+          <b>Haoxiang You</b>, 
+        
+          Qian Wang, 
+        
+          Daniel Rakita, 
+        
+          <b>Ian Abraham</b>
+        
+        
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+    
+    <a class="paper" href="https://doi.org/hcp3m8">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="">
+          Robotics: Science and Systems XXII
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">Distributionally Robust Control via Stein Variational Inference for Contact-rich Manipulation</span>
+      <span class="paper-authors">
+        
+          <b>Hrishikesh Sathyanarayan</b>, 
+        
+          Victor Vantilborgh, 
+        
+          Harish Ravichandar, 
+        
+          Tom Lefebvre, 
+        
+          <b>Ian Abraham</b>
+        
+        
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+    
+    <a class="paper" href="https://doi.org/hcp3m7">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="">
+          Robotics: Science and Systems XXII
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">Asymptotically Optimal Ergodic Coverage on Generalized Motion Fields</span>
+      <span class="paper-authors">
+        
+          <b>Christian Hughes</b>, 
+        
+          <b>Yilang Liu</b>, 
+        
+          Yanis Lahrach, 
+        
+          Julia Engdahl, 
+        
+          Houston Warren, 
+        
+          Darrick Lee
+        
+        , et al.
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+    
+    <a class="paper" href="https://doi.org/hcp3mv">
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="">
+          2026 IEEE International Conference on Robotics and Automation (ICRA)
+        </span>
+        <span class="paper-year">2026</span>
+      </span>
+      <span class="paper-title">Search at Scale: Improving Numerical Conditioning of Ergodic Coverage Optimization for Multi-Scale Domains</span>
+      <span class="paper-authors">
+        
+          Yanis Lahrach, 
+        
+          <b>Christian Hughes</b>, 
+        
+          <b>Ian Abraham</b>
+        
+        
+      </span>
+      <span class="paper-arrow">
+        Read paper <i class="icon fa-solid fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</div>
+
+<div class="button-wrapper">
+    <a class="button" href="/research" data-style="outline" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>All publications</span>
+      
+    </a>
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="research-areas">Research Areas</h2>
+
+<div class="feature">
+  <a href="/research" class="feature-image" aria-label="Numerical Methods for Adaptive, High-Dimensional Learning and Control">
+    <img src="/images/hand_rubix.jpg" loading="lazy" alt="Numerical Methods for Adaptive, High-Dimensional Learning and Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Numerical Methods for Adaptive, High-Dimensional Learning and Control</p>
+    
+    
+<p>We develop fast numerical methods that let robots learn, adapt, and control themselves in real time, even when the underlying models are high-dimensional, uncertain, and contact-rich. We combine model-based structure with data-driven learning so that adaptation stays both efficient and reliable.</p>
+
+<c>Current Research Topic Areas</c>
+<ul>
+  <li>Data-driven dynamics via Koopman operators</li>
+  <li>Stein-variational and uncertainty-adaptive model predictive control</li>
+  <li>Contact-rich manipulation through differentiable simulation and contact-aware information maximization</li>
+</ul>
 
 
   </div>
 </div>
 
 <div class="feature" data-flip="">
-  <a href="/research" class="feature-image" aria-label="Structured Learning and Control">
-    <img src="/images/hand_rubix.jpg" loading="lazy" alt="Structured Learning and Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Decision Making under Extreme Conditions">
+    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Decision Making under Extreme Conditions" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Structured Learning and Control</p>
+      <p class="feature-title">Decision Making under Extreme Conditions</p>
     
     
-<p>We combine model-based structure with learning, using data-driven dynamics models, differentiable simulation, and distributionally robust control, so robots can plan and act reliably, from contact-rich manipulation to legged locomotion and long-term field deployment.</p>
+<p>We develop theory and algorithms that let robots search, explore, and act in the most extreme and remote environments, where sensing, energy, and time are limited and mistakes are costly. Ergodic control gives robots principled strategies for spending time in proportion to where information or coverage value lies.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Data-driven dynamics via Koopman operators</li>
-  <li>Contact-rich manipulation through differentiable simulation</li>
-  <li>Distributionally robust and Stein-variational control for uncertain and field environments</li>
+  <li>Time- and scale-optimal ergodic search and coverage</li>
+  <li>Exploration over complex, non-Euclidean domains and motion fields</li>
+  <li>Safety- and reachability-guaranteed exploration</li>
 </ul>
-
-<!-- 
-
-
-
-  <div class="button-wrapper">
-    <a
-      class="button"
-      href="/projects"
-      
-      data-style="bare"
-      
-        data-flip
-      
-      aria-label="fa-solid fa-arrow-right"
-    >
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our projects</span>
-      
-    </a>
-  </div>
-
- -->
 
 
   </div>
 </div>
 
 <div class="feature">
-  <a href="/research" class="feature-image" aria-label="Collective Intelligence">
-    <img src="/images/multi-agent-erg.gif" loading="lazy" alt="Collective Intelligence" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/research" class="feature-image" aria-label="Distributed Optimization and Robust Control">
+    <img src="/images/multi-agent-erg.gif" loading="lazy" alt="Distributed Optimization and Robust Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Collective Intelligence</p>
+      <p class="feature-title">Distributed Optimization and Robust Control</p>
     
     
-<p>We study how teams of robots coordinate to search, explore, and act together, developing multi-agent ergodic control and coordination algorithms for heterogeneous robot teams.</p>
+<p>We study how teams of robots coordinate to search, explore, and act together, and how to keep their decisions robust when models and environments are uncertain. This spans distributed and multi-objective optimization as well as distributionally robust control.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
   <li>Multi-agent ergodic exploration under sensing/visibility constraints</li>
   <li>Multi-objective coordination via branch-and-bound and Pareto-optimal methods</li>
-  <li>Diverse, decentralized search strategies across robot teams</li>
+  <li>Distributionally robust control under uncertainty</li>
 </ul>
-
-<!-- 
-
-
-
-  <div class="button-wrapper">
-    <a
-      class="button"
-      href="/research"
-      
-      data-style="bare"
-      
-        data-flip
-      
-      aria-label="fa-solid fa-arrow-right"
-    >
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>See our publications</span>
-      
-    </a>
-  </div>
-
- -->
 
 
   </div>
 </div>
+  </section>
 
-<h2 id="try-it-yourself">Try It Yourself</h2>
+  
+  
+  
 
-<p>Drag around one of our robots, then get a feel for the idea behind our ergodic search research by marking points of interest and watching a search agent balance lingering where it matters against covering the rest of the space.</p>
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
 
-<div class="ergodic-demo"></div>
-<script type="module" src="demos/ergodic-demo.js"></script>
+<h2 id="we-are-recruiting">We are recruiting!</h2>
 
-<h2 id="interested-in-joining-we-are-currently-recruiting">Interested in <a href="contact">Joining</a>? We are currently recruiting!</h2>
-
-<p>Those interested in joining our <a href="team/index.md">group</a> are expected to have strong competency is programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms and deploy them on physical robots to expand the capabilities, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation.</p>
+<p>Those interested in joining our <a href="members">group</a> are expected to have strong competency in programming, optimization, systems and control theory, kinematics and dynamics of robotic systems, and rigorous mathematical theory and proof writing. Candidates should have a strong curiosity and drive to develop algorithms and deploy them on physical robots to expand the capabilities, analyze their performance, and prove reliability through mathematical rigor and repeated experimentation.</p>
 
 <p>Other useful skills:</p>
 
@@ -627,7 +801,7 @@
   <li>Excellent speaking/writing abilities</li>
 </ul>
 
-<p>If this sounds like you then please submit an <a href="https://www.sydney.edu.au/engineering/study/postgraduate-research.html">expression of interest (EOI)</a> via this <a href="https://sydney.au1.qualtrics.com/jfe/form/SV_6hQBMH6Xxo4BZ78">form</a>.
+<p>If this sounds like you then please submit an <a href="https://www.sydney.edu.au/engineering/study/postgraduate-research.html">expression of interest (EOI)</a> via this <a href="https://sydney.au1.qualtrics.com/jfe/form/SV_e8xuYF3XBRZ97Zs">form</a>.
 Make sure to list Dr. Ian Abraham, School of Electrical and Computer Engineering as a potential advisor if possible.</p>
   </section>
 

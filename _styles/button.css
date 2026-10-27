@@ -13,9 +13,9 @@ button {
   gap: 10px;
   max-width: calc(100% - 5px - 5px);
   margin: 5px;
-  padding: 10px 15px;
-  border: none;
-  border-radius: var(--rounded);
+  padding: 12px 20px;
+  border: 1px solid var(--primary);
+  border-radius: 999px;
   background: var(--primary);
   color: var(--background);
   text-align: center;
@@ -30,12 +30,25 @@ button {
 }
 
 .button:hover {
+  border-color: var(--text);
   background: var(--text);
   color: var(--background);
 }
 
+.button[data-style=outline] {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--light-gray);
+}
+.button[data-style=outline]:hover {
+  border-color: var(--primary);
+  background: transparent;
+  color: var(--primary);
+}
+
 .button[data-style=bare] {
   padding: 5px;
+  border: none;
   background: none;
   color: var(--primary);
 }

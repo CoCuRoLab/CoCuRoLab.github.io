@@ -4,8 +4,11 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
-  box-shadow: var(--shadow);
+  padding: 14px max(24px, (100% - 1160px) / 2);
+  background: color-mix(in srgb, var(--background) 82%, transparent);
+  border-bottom: 1px solid var(--border);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  backdrop-filter: saturate(160%) blur(14px);
   position: sticky !important;
   top: 0;
   z-index: 10 !important;
@@ -27,7 +30,7 @@ header a {
 }
 
 .logo {
-  height: 40px;
+  height: 34px;
 }
 
 .logo > * {
@@ -47,11 +50,14 @@ header a {
 
 .title > *:first-child {
   font-size: var(--large);
+  font-weight: var(--bold);
+  letter-spacing: -0.01em;
 }
 
 .title > *:last-child {
-  opacity: 0.65;
-  font-weight: var(--thin);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: var(--regular);
 }
 
 .nav-toggle {
@@ -87,60 +93,40 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px;
   font-family: var(--heading);
-  text-transform: uppercase;
+  font-weight: var(--semi-bold);
 }
 
 nav > a {
-  padding: 5px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  transition-property: background, color;
 }
 
 nav > a:hover {
+  background: var(--overlay);
   color: var(--primary);
 }
 
-@media (max-width: 700px) {
-  header:not([data-big]) {
+@media (max-width: 800px) {
+  header {
     justify-content: flex-end;
   }
-  header:not([data-big]) .nav-toggle {
-    display: flex;
-  }
-  header:not([data-big]) .nav-toggle:not(:checked) + nav {
+  header .title > *:last-child {
     display: none;
   }
-  header:not([data-big]) nav {
+  header .nav-toggle {
+    display: flex;
+  }
+  header .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+  header nav {
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
   }
-}
-
-header[data-big] {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 100px 20px;
-  top: unset;
-}
-header[data-big] .home {
-  flex-direction: column;
-  flex-grow: 0;
-}
-header[data-big] .logo {
-  height: 80px;
-}
-header[data-big] .title {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-header[data-big] .title > *:first-child {
-  font-size: var(--xxl);
-}
-header[data-big] .title > *:last-child {
-  font-size: var(--large);
 }
 
 /*# sourceMappingURL=header.css.map */
