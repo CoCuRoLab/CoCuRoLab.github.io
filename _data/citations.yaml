@@ -74,11 +74,11 @@
   link: https://doi.org/hcp3mt
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2510.19074.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2510.19074
-  image: images/papers/2510.19074.webp
 - id: doi:10.1109/icra57385.2026.11697230
   title: 'Search at Scale: Improving Numerical Conditioning of Ergodic Coverage Optimization
     for Multi-Scale Domains'
@@ -91,11 +91,11 @@
   link: https://doi.org/hcp3mv
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2512.05229.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2512.05229
-  image: images/papers/2512.05229.webp
 - id: doi:10.48550/arxiv.2604.01023
   title: Infinite-Horizon Ergodic Control via Kernel Mean Embeddings
   authors:
@@ -124,11 +124,11 @@
   link: https://doi.org/hbkcgd
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2408.04200.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2408.04200
-  image: images/papers/2408.04200.webp
 - id: doi:10.1007/978-3-032-04584-3_38
   title: "Measure Preserving Flows for\_Ergodic Search in\_Convoluted Environments"
   authors:
@@ -143,11 +143,11 @@
   link: https://doi.org/hbkcgf
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2409.09164.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2409.09164
-  image: images/papers/2409.09164.webp
 - id: doi:10.1007/978-3-032-09967-9_20
   title: 'RAnGE: Reachability Analysis for Guaranteed Ergodicity'
   authors:
@@ -158,11 +158,11 @@
   link: https://doi.org/hb9vmf
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2404.03186.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2404.03186
-  image: images/papers/2404.03186.webp
 - id: doi:10.48550/arxiv.2510.18137
   title: 'Quality Over Quantity: Curating Contact-Based Robot Datasets Improves Learning'
   authors:
@@ -187,11 +187,11 @@
   link: https://doi.org/g8nr7k
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2305.11643.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2305.11643
-  image: images/papers/2305.11643.webp
 - id: doi:10.1109/icarm65671.2025.11293600
   title: 3D Reprojection-Driven Robot Navigation Improves Depth Sensing
   authors:
@@ -217,11 +217,11 @@
   link: https://doi.org/hbkcgh
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2503.05026.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2503.05026
-  image: images/papers/2503.05026.webp
 - id: doi:10.1109/icra55743.2025.11127573
   title: Ergodic Trajectory Optimization on Generalized Domains Using Maximum Mean
     Discrepancy
@@ -236,11 +236,11 @@
   link: https://doi.org/hbkcgj
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2410.10599.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2410.10599
-  image: images/papers/2410.10599.webp
 - id: doi:10.1109/icra55743.2025.11128670
   title: Multi-Agent Ergodic Exploration Under Smoke-Based Time-Varying Sensor Visibility
     Constraints
@@ -254,11 +254,11 @@
   link: https://doi.org/hbkcgk
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2503.04998.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2503.04998
-  image: images/papers/2503.04998.webp
 - id: doi:10.48550/arxiv.2503.02171
   title: Is Bellman Equation Enough for Learning Control?
   authors:
@@ -278,7 +278,8 @@
   date: '2025-12-02'
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources.yaml
+  image: images/papers/2505.10646.webp
   type: paper
   authors:
   - Haoxiang You
@@ -288,7 +289,6 @@
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2505.10646
-  image: images/papers/2505.10646.webp
 - id: doi:10.52202/085713-2482
   title: 'Diversifying Parallel Ergodic Search: A Signature Kernel Evolution Strategy'
   authors:
@@ -328,11 +328,11 @@
   link: https://doi.org/hbkcgr
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2310.09470.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2310.09470
-  image: images/papers/2310.09470.webp
 - id: doi:10.1109/icra57147.2024.10610399
   title: 'RB5 Low-Cost Explorer: Implementing Autonomous Long-Term Exploration on
     Low-Cost Robotic Hardware'
@@ -350,11 +350,11 @@
   link: https://doi.org/hbkcgs
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2402.08897.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2402.08897
-  image: images/papers/2402.08897.webp
 - id: doi:10.1007/978-3-031-51497-5_9
   title: "Sparse Sensing in\_Ergodic Optimization"
   authors:
@@ -380,11 +380,11 @@
   link: https://doi.org/hbkcgx
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2307.16707.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2307.16707
-  image: images/papers/2307.16707.webp
 - id: doi:10.1109/iros55552.2023.10341353
   title: Multi-Agent Multi-Objective Ergodic Search Using Branch and Bound
   authors:
@@ -426,11 +426,11 @@
   link: https://doi.org/hbkcg4
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2211.04310.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2211.04310
-  image: images/papers/2211.04310.webp
 - id: doi:10.1177/02783649221083331
   title: Hybrid control for combining model-based and model-free reinforcement learning
   authors:
@@ -465,7 +465,8 @@
   link: https://doi.org/gsngmj
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2212.03106.webp
   tags:
   - multi-robot
   - ergodic control
@@ -474,7 +475,6 @@
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2212.03106
-  image: images/papers/2212.03106.webp
 - id: doi:10.1007/978-3-031-25555-7_11
   title: Scale-Invariant Fast Functional Registration
   authors:
@@ -487,11 +487,11 @@
   link: https://doi.org/hbkcg5
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2209.12763.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2209.12763
-  image: images/papers/2209.12763.webp
 - id: doi:10.48550/arxiv.2203.03865
   title: A Second-Order Reachable Sets Computation Scheme via a Cauchy-Type Variational
     Hamilton-Jacobi-Isaacs Equation
@@ -560,11 +560,11 @@
   link: https://doi.org/gsngmn
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2006.03552.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2006.03552
-  image: images/papers/2006.03552.webp
 - id: doi:10.1007/978-3-030-66723-8_27
   title: Hybrid Control for Learning Motor Skills
   authors:
@@ -578,11 +578,11 @@
   link: https://doi.org/hbkchf
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2006.03636.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2006.03636
-  image: images/papers/2006.03636.webp
 - id: doi:10.48550/arxiv.2010.12070
   title: Dynamics and Domain Randomized Gait Modulation with Bezier Curves for Sim-to-Real
     Legged Locomotion
@@ -611,11 +611,11 @@
   link: https://doi.org/gqwjnb
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2006.07210.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2006.07210
-  image: images/papers/2006.07210.webp
 - id: doi:10.1007/978-3-030-44051-0_17
   title: Active Area Coverage from Equilibrium
   authors:
@@ -627,11 +627,11 @@
   link: https://doi.org/hbkchq
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1902.03320.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1902.03320
-  image: images/papers/1902.03320.webp
 - id: doi:10.1007/978-3-030-35713-9_16
   title: Experimental Applications of the Koopman Operator in Active Learning for
     Control
@@ -671,11 +671,11 @@
   link: https://doi.org/gkrc9d
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1709.01560.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1709.01560
-  image: images/papers/1709.01560.webp
 - id: doi:10.1115/1.4028751
   title: A Nonlinear Leg Damping Model for the Prediction of Running Forces and Stability
   authors:
@@ -712,11 +712,11 @@
   link: https://doi.org/hbkch6
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2207.02923.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2207.02923
-  image: images/papers/2207.02923.webp
 - id: doi:10.1109/tro.2019.2923880
   title: Active Learning of Dynamics for Data-Driven Control Using Koopman Operators
   authors:
@@ -727,11 +727,11 @@
   link: https://doi.org/gg65zt
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1906.05194.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1906.05194
-  image: images/papers/1906.05194.webp
 - id: doi:10.15607/rss.2026.xxii.136
   title: Asymptotically Optimal Ergodic Coverage on Generalized Motion Fields
   authors:
@@ -749,11 +749,11 @@
   link: https://doi.org/hcp3m7
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2605.13442.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2605.13442
-  image: images/papers/2605.13442.webp
 - id: doi:10.15607/rss.2025.xxi.118
   title: Behavior Synthesis via Contact-Aware Fisher Information Maximization
   authors:
@@ -764,11 +764,11 @@
   link: https://doi.org/hb9vmx
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2505.12214.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2505.12214
-  image: images/papers/2505.12214.webp
 - id: doi:10.15607/rss.2018.xiv.045
   title: Data-Driven Measurement Models for Active Localization in Sparse Environments
   authors:
@@ -780,11 +780,11 @@
   link: https://doi.org/gkv2d2
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1806.00112.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1806.00112
-  image: images/papers/1806.00112.webp
 - id: doi:10.1109/lra.2018.2849588
   title: 'Decentralized Ergodic Control: Distribution-Driven Sensing and Exploration
     for Multiagent Systems'
@@ -796,11 +796,11 @@
   link: https://doi.org/gkv7tt
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1806.05220.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1806.05220
-  image: images/papers/1806.05220.webp
 - id: doi:10.15607/rss.2026.xxii.061
   title: Distributionally Robust Control via Stein Variational Inference for Contact-rich
     Manipulation
@@ -815,11 +815,11 @@
   link: https://doi.org/hcp3m8
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2605.19029.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2605.19029
-  image: images/papers/2605.19029.webp
 - id: doi:10.15607/rss.2020.xvi.067
   title: 'Ergodic Specifications for Flexible Swarm Control: From User Commands to
     Persistent Adaptation'
@@ -839,11 +839,11 @@
   link: https://doi.org/gm2287
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2006.06081.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2006.06081
-  image: images/papers/2006.06081.webp
 - id: doi:10.1109/lra.2021.3135930
   title: Learning Cooperative Multi-Agent Policies With Partial Reward Decoupling
   authors:
@@ -857,11 +857,11 @@
   link: https://doi.org/gsngmm
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2112.12740.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2112.12740
-  image: images/papers/2112.12740.webp
 - id: doi:10.15607/rss.2017.xiii.052
   title: Model-Based Control Using Koopman Operators
   authors:
@@ -873,11 +873,11 @@
   link: https://doi.org/ggmzfx
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1709.01568.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1709.01568
-  image: images/papers/1709.01568.webp
 - id: doi:10.1109/lra.2020.2972836
   title: Model-Based Generalization Under Parameter Uncertainty Using Path Integral
     Control
@@ -893,11 +893,11 @@
   link: https://doi.org/gnsr47
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2006.03106.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2006.03106
-  image: images/papers/2006.03106.webp
 - id: doi:10.1109/tro.2017.2766265
   title: Real-Time Area Coverage and Target Localization Using Receding-Horizon Ergodic
     Exploration
@@ -911,11 +911,11 @@
   link: https://doi.org/gc2th7
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/1708.08416.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/1708.08416
-  image: images/papers/1708.08416.webp
 - id: doi:10.15607/rss.2024.xx.001
   title: Stein Variational Ergodic Search
   authors:
@@ -928,11 +928,11 @@
   link: https://doi.org/hb9vmz
   orcid: 0000-0003-0299-1760
   plugin: sources.py
-  file: sources-images.yaml
+  file: sources-preprints.yaml
+  image: images/papers/2406.11767.webp
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2406.11767
-  image: images/papers/2406.11767.webp
 - id: doi:10.1101/862839
   title: 'WHISKiT Physics: A three-dimensional mechanical model of the rat vibrissal
     array'
@@ -948,6 +948,120 @@
   orcid: 0000-0003-0299-1760
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1109/TRO.2022.3228130
+  title: Learning Stable Models for Prediction and Control
+  authors:
+  - Giorgos Mamakoukas
+  - Ian Abraham
+  - Todd D. Murphey
+  publisher: IEEE Transactions on Robotics
+  date: '2023-06-01'
+  link: https://doi.org/gsngmh
+  image: images/papers/2005.04291.webp
+  plugin: sources.py
+  file: sources-preprints.yaml
+  tags:
+  - Koopman operator theory
+  - optimal control
+  - learning
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2005.04291
+- id: doi:10.1109/TRO.2023.3284358
+  title: A Pareto-Optimal Local Optimization Framework for Multiobjective Ergodic
+    Search
+  authors:
+  - Zhongqiang Ren
+  - Akshaya Kesarimangalam Srinivasan
+  - Bhaskar Vundurthy
+  - Ian Abraham
+  - Howie Choset
+  publisher: IEEE Transactions on Robotics
+  date: '2023-10-01'
+  link: https://doi.org/gsngmk
+  image: images/papers/2207.02923.webp
+  plugin: sources.py
+  file: sources-preprints.yaml
+  tags:
+  - optimization
+  - multi-objective optimization
+  - ergodic search
+  - ergodicity
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2207.02923
+- id: doi:10.48550/arxiv.2610.21823
+  title: Time-Optimal Ergodic Retrieval
+  authors:
+  - Christian Sulana
+  - Christian Hughes
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-10-15'
+  link: https://doi.org/hcp3qb
+  image: images/papers/2610.21823.webp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arxiv.2609.27308
+  title: 'EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics'
+  authors:
+  - Zeyu Shen
+  - Haoxiang You
+  - Yilang Liu
+  - Zhicheng Zheng
+  - Lihan Zha
+  - Kashu Yamazaki
+  - Mingtong Zhang
+  - Suning Huang
+  - Jiankai Sun
+  - Qianzhong Chen
+  - Lucy He
+  - Kaiyuan Liu
+  - Haoran Chang
+  - Katerina Fragkiadaki
+  - Dhruv Shah
+  - Mac Schwager
+  - Peter Henderson
+  - Ian Abraham
+  - Canwen Xu
+  publisher: arXiv
+  date: '2026-09-23'
+  link: https://doi.org/hcp3qx
+  image: images/papers/2609.27308.webp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arxiv.2609.20575
+  title: Accelerating Visual Policy Learning with Sampling-Based Model Predictive
+    Control
+  authors:
+  - Yilang Liu
+  - Haoxiang You
+  - Qian Wang
+  - Daniel Rakita
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-09-17'
+  link: https://doi.org/hcp3qz
+  image: images/papers/2609.20575.webp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arxiv.2605.26478
+  title: Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient
+  authors:
+  - Haoxiang You
+  - Yilang Liu
+  - Davis Zong
+  - Qian Wang
+  - Teeratham Vitchutripop
+  - Qi Wang
+  - Daniel Rakita
+  - Ian Abraham
+  publisher: arXiv
+  date: '2026-05-26'
+  link: https://doi.org/hcp3q2
+  image: images/papers/2605.26478.webp
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.15607/RSS.2023.XIX.082
   title: Time Optimal Ergodic Search
   authors:
@@ -977,117 +1091,3 @@
   - ergodic control
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/TRO.2022.3228130
-  title: Learning Stable Models for Prediction and Control
-  authors:
-  - Giorgos Mamakoukas
-  - Ian Abraham
-  - Todd D. Murphey
-  publisher: IEEE Transactions on Robotics
-  date: '2023-06-01'
-  link: https://doi.org/gsngmh
-  tags:
-  - Koopman operator theory
-  - optimal control
-  - learning
-  plugin: sources.py
-  file: sources-images.yaml
-  buttons:
-  - type: preprint
-    link: https://arxiv.org/abs/2005.04291
-  image: images/papers/2005.04291.webp
-- id: doi:10.1109/TRO.2023.3284358
-  title: A Pareto-Optimal Local Optimization Framework for Multiobjective Ergodic
-    Search
-  authors:
-  - Zhongqiang Ren
-  - Akshaya Kesarimangalam Srinivasan
-  - Bhaskar Vundurthy
-  - Ian Abraham
-  - Howie Choset
-  publisher: IEEE Transactions on Robotics
-  date: '2023-10-01'
-  link: https://doi.org/gsngmk
-  tags:
-  - optimization
-  - multi-objective optimization
-  - ergodic search
-  - ergodicity
-  plugin: sources.py
-  file: sources-images.yaml
-  buttons:
-  - type: preprint
-    link: https://arxiv.org/abs/2207.02923
-  image: images/papers/2207.02923.webp
-- id: doi:10.48550/arxiv.2610.21823
-  title: Time-Optimal Ergodic Retrieval
-  authors:
-  - Christian Sulana
-  - Christian Hughes
-  - Ian Abraham
-  publisher: arXiv
-  date: '2026-10-15'
-  link: https://doi.org/hcp3qb
-  plugin: sources.py
-  file: sources-images.yaml
-  image: images/papers/2610.21823.webp
-- id: doi:10.48550/arxiv.2609.27308
-  title: 'EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics'
-  authors:
-  - Zeyu Shen
-  - Haoxiang You
-  - Yilang Liu
-  - Zhicheng Zheng
-  - Lihan Zha
-  - Kashu Yamazaki
-  - Mingtong Zhang
-  - Suning Huang
-  - Jiankai Sun
-  - Qianzhong Chen
-  - Lucy He
-  - Kaiyuan Liu
-  - Haoran Chang
-  - Katerina Fragkiadaki
-  - Dhruv Shah
-  - Mac Schwager
-  - Peter Henderson
-  - Ian Abraham
-  - Canwen Xu
-  publisher: arXiv
-  date: '2026-09-23'
-  link: https://doi.org/hcp3qx
-  plugin: sources.py
-  file: sources-images.yaml
-  image: images/papers/2609.27308.webp
-- id: doi:10.48550/arxiv.2609.20575
-  title: Accelerating Visual Policy Learning with Sampling-Based Model Predictive
-    Control
-  authors:
-  - Yilang Liu
-  - Haoxiang You
-  - Qian Wang
-  - Daniel Rakita
-  - Ian Abraham
-  publisher: arXiv
-  date: '2026-09-17'
-  link: https://doi.org/hcp3qz
-  plugin: sources.py
-  file: sources-images.yaml
-  image: images/papers/2609.20575.webp
-- id: doi:10.48550/arxiv.2605.26478
-  title: Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient
-  authors:
-  - Haoxiang You
-  - Yilang Liu
-  - Davis Zong
-  - Qian Wang
-  - Teeratham Vitchutripop
-  - Qi Wang
-  - Daniel Rakita
-  - Ian Abraham
-  publisher: arXiv
-  date: '2026-05-26'
-  link: https://doi.org/hcp3q2
-  plugin: sources.py
-  file: sources-images.yaml
-  image: images/papers/2605.26478.webp
