@@ -1,0 +1,293 @@
+# links published papers to their arxiv preprints, and hides entries that
+# duplicate another one (the preprint of a published paper, or the same paper
+# listed twice under different dois). merged into citations by matching id.
+
+# published versions: add a preprint button
+
+- id: doi:10.1109/tro.2017.2766265
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1708.08416
+
+- id: doi:10.1109/lra.2017.2654542
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1709.01560
+
+- id: doi:10.15607/rss.2017.xiii.052
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1709.01568
+
+- id: doi:10.15607/rss.2018.xiv.045
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1806.00112
+
+- id: doi:10.1109/lra.2018.2849588
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1806.05220
+
+- id: doi:10.1007/978-3-030-44051-0_17
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1902.03320
+
+- id: doi:10.1109/tro.2019.2923880
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/1906.05194
+
+- id: doi:10.1109/TRO.2022.3228130
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2005.04291
+
+- id: doi:10.1109/lra.2020.2972836
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2006.03106
+
+- id: doi:10.1109/tase.2020.3043636
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2006.03552
+
+- id: doi:10.1007/978-3-030-66723-8_27
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2006.03636
+
+- id: doi:10.15607/rss.2020.xvi.067
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2006.06081
+
+- id: doi:10.1177/0278364920921935
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2006.07210
+
+- id: doi:10.1109/lra.2021.3135930
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2112.12740
+
+- id: doi:10.15607/rss.2022.xviii.052
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2207.02923
+
+- id: doi:10.1109/TRO.2023.3284358
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2207.02923
+
+- id: doi:10.1007/978-3-031-25555-7_11
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2209.12763
+
+- id: doi:10.1109/icra48891.2023.10161032
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2211.04310
+
+- id: doi:10.55417/fr.2023011
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2212.03106
+
+- id: doi:10.1177/02783649241273597
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2305.11643
+
+- id: doi:10.1109/iros55552.2023.10341437
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2307.16707
+
+- id: doi:10.1109/icra57147.2024.10609871
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2310.09470
+
+- id: doi:10.1109/icra57147.2024.10610399
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2402.08897
+
+- id: doi:10.1007/978-3-032-09967-9_20
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2404.03186
+
+- id: doi:10.15607/rss.2024.xx.001
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2406.11767
+
+- id: doi:10.1109/TRO.2026.3654384
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2408.04200
+
+- id: doi:10.1007/978-3-032-04584-3_38
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2409.09164
+
+- id: doi:10.1109/icra55743.2025.11127573
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2410.10599
+
+- id: doi:10.1109/icra55743.2025.11128670
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2503.04998
+
+- id: doi:10.1109/icra55743.2025.11127626
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2503.05026
+
+- id: doi:10.15607/rss.2025.xxi.118
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2505.12214
+
+- id: doi:10.1109/icra57385.2026.11696777
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2510.19074
+
+- id: doi:10.1109/icra57385.2026.11697230
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2512.05229
+
+- id: doi:10.15607/rss.2026.xxii.136
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2605.13442
+
+- id: doi:10.15607/rss.2026.xxii.061
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2605.19029
+
+# duplicates: hide from the publications list
+
+- id: doi:10.1109/tro.2022.3228130
+  remove: true
+
+- id: doi:10.1109/tro.2023.3284358
+  remove: true
+
+- id: doi:10.15607/rss.2023.xix.082
+  remove: true
+
+- id: doi:10.1109/TFR.2024.3494721
+  remove: true
+
+- id: doi:10.48550/arxiv.1708.08416
+  remove: true
+
+- id: doi:10.48550/arxiv.1709.01560
+  remove: true
+
+- id: doi:10.48550/arxiv.1709.01568
+  remove: true
+
+- id: doi:10.48550/arxiv.1806.00112
+  remove: true
+
+- id: doi:10.48550/arxiv.1806.05220
+  remove: true
+
+- id: doi:10.48550/arxiv.1902.03320
+  remove: true
+
+- id: doi:10.48550/arxiv.1906.05194
+  remove: true
+
+- id: doi:10.48550/arxiv.2005.04291
+  remove: true
+
+- id: doi:10.48550/arxiv.2006.03106
+  remove: true
+
+- id: doi:10.48550/arxiv.2006.03552
+  remove: true
+
+- id: doi:10.48550/arxiv.2006.03636
+  remove: true
+
+- id: doi:10.48550/arxiv.2006.06081
+  remove: true
+
+- id: doi:10.48550/arxiv.2006.07210
+  remove: true
+
+- id: doi:10.48550/arxiv.2112.12740
+  remove: true
+
+- id: doi:10.48550/arxiv.2207.02923
+  remove: true
+
+- id: doi:10.48550/arxiv.2209.12763
+  remove: true
+
+- id: doi:10.48550/arxiv.2211.04310
+  remove: true
+
+- id: doi:10.48550/arxiv.2212.03106
+  remove: true
+
+- id: doi:10.48550/arxiv.2305.11643
+  remove: true
+
+- id: doi:10.48550/arxiv.2307.16707
+  remove: true
+
+- id: doi:10.48550/arxiv.2310.09470
+  remove: true
+
+- id: doi:10.48550/arxiv.2402.08897
+  remove: true
+
+- id: doi:10.48550/arxiv.2404.03186
+  remove: true
+
+- id: doi:10.48550/arxiv.2406.11767
+  remove: true
+
+- id: doi:10.48550/arxiv.2408.04200
+  remove: true
+
+- id: doi:10.48550/arxiv.2409.09164
+  remove: true
+
+- id: doi:10.48550/arxiv.2410.10599
+  remove: true
+
+- id: doi:10.48550/arxiv.2503.04998
+  remove: true
+
+- id: doi:10.48550/arxiv.2503.05026
+  remove: true
+
+- id: doi:10.48550/arxiv.2505.12214
+  remove: true
+
+- id: doi:10.48550/arxiv.2512.05229
+  remove: true
+
+- id: doi:10.48550/arxiv.2605.13442
+  remove: true
+
+- id: doi:10.48550/arxiv.2605.19029
+  remove: true

@@ -22,9 +22,11 @@
   date: 2023-7-13
   description: In this paper, we investigate solutions to the time-optimal ergodic search problem for fast and adaptive robotic search and exploration.
   image: images/papers/time_opt_ergRSS23/fig1.png
-  buttons: 
+  buttons:
+    - type: preprint
+      link: https://arxiv.org/abs/2305.11643
     - type: source
-      text: Code 
+      text: Code
       link: https://github.com/ialab-yale/time_optimal_ergodic_search
     - type: youtube
       text: RSS Talk
@@ -68,8 +70,7 @@
   date: '2025-12-02'
   link: https://papers.nips.cc/paper_files/paper/2025/hash/4a90cfc130d4f37ecb99f90c3fba9d66-Abstract-Conference.html
   buttons:
-    - type: link
-      text: arXiv
+    - type: preprint
       link: https://arxiv.org/abs/2505.10646
 
 # recent arxiv preprints not yet on orcid

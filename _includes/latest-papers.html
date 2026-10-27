@@ -15,6 +15,11 @@
   {% for paper in papers limit: count %}
     {% assign year = paper.date | date: "%Y" %}
     <a class="paper" {% if paper.link %}href="{{ paper.link }}"{% endif %}>
+      {% if paper.image %}
+        <span class="paper-image">
+          <img src="{{ paper.image | relative_url }}" alt="" loading="lazy">
+        </span>
+      {% endif %}
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="{% if paper.publisher contains 'arXiv' %}true{% endif %}">
           {% if paper.publisher contains "arXiv" %}Preprint{% else %}{{ paper.publisher }}{% endif %}

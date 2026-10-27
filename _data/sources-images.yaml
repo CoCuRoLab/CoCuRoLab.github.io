@@ -1,0 +1,267 @@
+# figure images for publications, merged into citations by matching id.
+# images were pulled from each paper's figure 1 (or first figure) on arxiv;
+# replace a file in images/papers/ to use a different highlight.
+
+- id: doi:10.48550/arxiv.2510.20483
+  image: images/papers/2510.20483.webp
+
+- id: doi:10.48550/arxiv.2609.28299
+  image: images/papers/2609.28299.webp
+
+- id: doi:10.48550/arxiv.2609.13295
+  image: images/papers/2609.13295.webp
+
+- id: doi:10.48550/arxiv.2604.01034
+  image: images/papers/2604.01034.webp
+
+- id: doi:10.48550/arxiv.2605.19029
+  image: images/papers/2605.19029.webp
+
+- id: doi:10.1109/icra57385.2026.11696777
+  image: images/papers/2510.19074.webp
+
+- id: doi:10.1109/icra57385.2026.11697230
+  image: images/papers/2512.05229.webp
+
+- id: doi:10.48550/arxiv.2605.13442
+  image: images/papers/2605.13442.webp
+
+- id: doi:10.48550/arxiv.2604.01023
+  image: images/papers/2604.01023.webp
+
+- id: doi:10.1109/TRO.2026.3654384
+  image: images/papers/2408.04200.webp
+
+- id: doi:10.1007/978-3-032-04584-3_38
+  image: images/papers/2409.09164.webp
+
+- id: doi:10.1007/978-3-032-09967-9_20
+  image: images/papers/2404.03186.webp
+
+- id: doi:10.48550/arxiv.2512.05229
+  image: images/papers/2512.05229.webp
+
+- id: doi:10.48550/arxiv.2510.18137
+  image: images/papers/2510.18137.webp
+
+- id: doi:10.48550/arxiv.2505.12214
+  image: images/papers/2505.12214.webp
+
+- id: doi:10.1177/02783649241273597
+  image: images/papers/2305.11643.webp
+
+- id: doi:10.1109/icra55743.2025.11127626
+  image: images/papers/2503.05026.webp
+
+- id: doi:10.1109/icra55743.2025.11127573
+  image: images/papers/2410.10599.webp
+
+- id: doi:10.48550/arxiv.2408.04200
+  image: images/papers/2408.04200.webp
+
+- id: doi:10.1109/icra55743.2025.11128670
+  image: images/papers/2503.04998.webp
+
+- id: doi:10.48550/arxiv.2410.10599
+  image: images/papers/2410.10599.webp
+
+- id: doi:10.48550/arxiv.2503.05026
+  image: images/papers/2503.05026.webp
+
+- id: doi:10.48550/arxiv.2503.02171
+  image: images/papers/2503.02171.webp
+
+- id: doi:10.48550/arxiv.2503.04998
+  image: images/papers/2503.04998.webp
+
+- id: source-work-id:755432
+  image: images/papers/2505.10646.webp
+
+- id: doi:10.48550/arxiv.2404.03186
+  image: images/papers/2404.03186.webp
+
+- id: doi:10.48550/arxiv.2411.10935
+  image: images/papers/2411.10935.webp
+
+- id: doi:10.48550/arxiv.2409.09164
+  image: images/papers/2409.09164.webp
+
+- id: doi:10.48550/arxiv.2406.11767
+  image: images/papers/2406.11767.webp
+
+- id: doi:10.1109/icra57147.2024.10609871
+  image: images/papers/2310.09470.webp
+
+- id: doi:10.1109/icra57147.2024.10610399
+  image: images/papers/2402.08897.webp
+
+- id: doi:10.48550/arxiv.2310.09470
+  image: images/papers/2310.09470.webp
+
+- id: doi:10.48550/arxiv.2402.08897
+  image: images/papers/2402.08897.webp
+
+- id: doi:10.1109/TFR.2024.3494721
+  image: images/papers/2212.03106.webp
+
+- id: doi:10.1109/iros55552.2023.10341437
+  image: images/papers/2307.16707.webp
+
+- id: doi:10.48550/arxiv.2310.06164
+  image: images/papers/2310.06164.webp
+
+- id: doi:10.48550/arxiv.2307.16707
+  image: images/papers/2307.16707.webp
+
+- id: doi:10.1109/icra48891.2023.10161032
+  image: images/papers/2211.04310.webp
+
+- id: doi:10.48550/arxiv.2305.11643
+  image: images/papers/2305.11643.webp
+
+- id: doi:10.48550/arxiv.2211.04310
+  image: images/papers/2211.04310.webp
+
+- id: doi:10.55417/fr.2023011
+  image: images/papers/2212.03106.webp
+
+- id: doi:10.1007/978-3-031-25555-7_11
+  image: images/papers/2209.12763.webp
+
+- id: doi:10.48550/arxiv.2212.03106
+  image: images/papers/2212.03106.webp
+
+- id: doi:10.48550/arxiv.2209.12763
+  image: images/papers/2209.12763.webp
+
+- id: doi:10.48550/arxiv.2207.02923
+  image: images/papers/2207.02923.webp
+
+- id: doi:10.48550/arxiv.2005.04291
+  image: images/papers/2005.04291.webp
+
+- id: doi:10.48550/arxiv.2112.12740
+  image: images/papers/2112.12740.webp
+
+- id: doi:10.1109/tase.2020.3043636
+  image: images/papers/2006.03552.webp
+
+- id: doi:10.1007/978-3-030-66723-8_27
+  image: images/papers/2006.03636.webp
+
+- id: doi:10.48550/arxiv.2006.03552
+  image: images/papers/2006.03552.webp
+
+- id: doi:10.48550/arxiv.2010.12070
+  image: images/papers/2010.12070.webp
+
+- id: doi:10.1177/0278364920921935
+  image: images/papers/2006.07210.webp
+
+- id: doi:10.48550/arxiv.2006.07210
+  image: images/papers/2006.07210.webp
+
+- id: doi:10.48550/arxiv.2006.06081
+  image: images/papers/2006.06081.webp
+
+- id: doi:10.48550/arxiv.2006.03636
+  image: images/papers/2006.03636.webp
+
+- id: doi:10.48550/arxiv.2006.03106
+  image: images/papers/2006.03106.webp
+
+- id: doi:10.1007/978-3-030-44051-0_17
+  image: images/papers/1902.03320.webp
+
+- id: doi:10.48550/arxiv.1906.05194
+  image: images/papers/1906.05194.webp
+
+- id: doi:10.48550/arxiv.1902.03320
+  image: images/papers/1902.03320.webp
+
+- id: doi:10.48550/arxiv.1808.01184
+  image: images/papers/1808.01184.webp
+
+- id: doi:10.48550/arxiv.1806.05220
+  image: images/papers/1806.05220.webp
+
+- id: doi:10.48550/arxiv.1806.00112
+  image: images/papers/1806.00112.webp
+
+- id: doi:10.48550/arxiv.1709.01560
+  image: images/papers/1709.01560.webp
+
+- id: doi:10.48550/arxiv.1709.01568
+  image: images/papers/1709.01568.webp
+
+- id: doi:10.48550/arxiv.1708.08416
+  image: images/papers/1708.08416.webp
+
+- id: doi:10.1109/lra.2017.2654542
+  image: images/papers/1709.01560.webp
+
+- id: doi:10.15607/rss.2022.xviii.052
+  image: images/papers/2207.02923.webp
+
+- id: doi:10.1109/tro.2023.3284358
+  image: images/papers/2207.02923.webp
+
+- id: doi:10.1109/tro.2019.2923880
+  image: images/papers/1906.05194.webp
+
+- id: doi:10.15607/rss.2026.xxii.136
+  image: images/papers/2605.13442.webp
+
+- id: doi:10.15607/rss.2025.xxi.118
+  image: images/papers/2505.12214.webp
+
+- id: doi:10.15607/rss.2018.xiv.045
+  image: images/papers/1806.00112.webp
+
+- id: doi:10.1109/lra.2018.2849588
+  image: images/papers/1806.05220.webp
+
+- id: doi:10.15607/rss.2026.xxii.061
+  image: images/papers/2605.19029.webp
+
+- id: doi:10.15607/rss.2020.xvi.067
+  image: images/papers/2006.06081.webp
+
+- id: doi:10.1109/lra.2021.3135930
+  image: images/papers/2112.12740.webp
+
+- id: doi:10.1109/tro.2022.3228130
+  image: images/papers/2005.04291.webp
+
+- id: doi:10.15607/rss.2017.xiii.052
+  image: images/papers/1709.01568.webp
+
+- id: doi:10.1109/lra.2020.2972836
+  image: images/papers/2006.03106.webp
+
+- id: doi:10.1109/tro.2017.2766265
+  image: images/papers/1708.08416.webp
+
+- id: doi:10.15607/rss.2024.xx.001
+  image: images/papers/2406.11767.webp
+
+- id: doi:10.15607/rss.2023.xix.082
+  image: images/papers/2305.11643.webp
+
+- id: doi:10.1109/TRO.2022.3228130
+  image: images/papers/2005.04291.webp
+
+- id: doi:10.1109/TRO.2023.3284358
+  image: images/papers/2207.02923.webp
+
+- id: doi:10.48550/arxiv.2610.21823
+  image: images/papers/2610.21823.webp
+
+- id: doi:10.48550/arxiv.2609.27308
+  image: images/papers/2609.27308.webp
+
+- id: doi:10.48550/arxiv.2609.20575
+  image: images/papers/2609.20575.webp
+
+- id: doi:10.48550/arxiv.2605.26478
+  image: images/papers/2605.26478.webp

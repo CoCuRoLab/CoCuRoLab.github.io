@@ -27,6 +27,27 @@ $wrap: 800px;
   object-fit: cover;
 }
 
+// show the whole image (e.g. a paper figure) on white instead of cropping
+.feature[data-fit="contain"] .feature-image {
+  padding: 12px;
+  background: #ffffff;
+}
+
+.feature[data-fit="contain"] .feature-image img {
+  object-fit: contain;
+}
+
+// videos keep their own aspect ratio rather than being cropped to 3:2
+.feature[data-video] .feature-image {
+  aspect-ratio: auto;
+}
+
+.feature-image video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .feature-text {
   flex-grow: 1;
 }

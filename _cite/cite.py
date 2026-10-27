@@ -108,6 +108,9 @@ for a in range(0, len(sources)):
             sources[b] = {}
 sources = [entry for entry in sources if entry]
 
+# drop sources marked for removal (e.g. a preprint superseded by its published version)
+sources = [entry for entry in sources if not get_safe(entry, "remove", False)]
+
 
 log(f"{len(sources)} total source(s) to cite")
 

@@ -36,18 +36,20 @@ New papers and preprints from the lab. The full list lives on our [publications 
 
 {% capture text %}
 
-We develop fast numerical methods that let robots learn, adapt, and control themselves in real time, even when the underlying models are high-dimensional, uncertain, and contact-rich. We combine model-based structure with data-driven learning so that adaptation stays both efficient and reliable.
+Robots increasingly learn from pixels and act through contact, in state spaces far too large for classical solvers. We build fast, structure-exploiting numerical methods, from parallel differentiable simulation and sampling-based model predictive control to operator-theoretic models, that make learning and adaptation tractable in real time.
 
 <c>Current Research Topic Areas</c>
-- Data-driven dynamics via Koopman operators
-- Stein-variational and uncertainty-adaptive model predictive control
-- Contact-rich manipulation through differentiable simulation and contact-aware information maximization
+- Visual policy learning through parallel differentiable simulation and sampling-based control ([NeurIPS 2025](https://arxiv.org/abs/2505.10646), [preprint](https://arxiv.org/abs/2605.26478), [preprint](https://arxiv.org/abs/2609.20575))
+- Optimal switching between hybrid and non-differentiable control modes ([ICRA 2026](https://arxiv.org/abs/2510.19074))
+- Koopman operator models for learning and control ([T-RO 2026](https://doi.org/10.1109/TRO.2026.3654384))
+- Informative contact data for manipulation learning ([RSS 2025](https://arxiv.org/abs/2505.12214), [preprint](https://arxiv.org/abs/2510.18137))
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/hand_rubix.jpg"
+  image="images/research/g1-carry-vision.webp"
+  video="images/research/g1-carry-vision.mp4"
   link="research"
   title="Numerical Methods for Adaptive, High-Dimensional Learning and Control"
   text=text
@@ -55,40 +57,44 @@ We develop fast numerical methods that let robots learn, adapt, and control them
 
 {% capture text %}
 
-We develop theory and algorithms that let robots search, explore, and act in the most extreme and remote environments, where sensing, energy, and time are limited and mistakes are costly. Ergodic control gives robots principled strategies for spending time in proportion to where information or coverage value lies.
+Flow fields, smoke, and vast or irregular spaces are where robots are most useful and most likely to fail. We develop ergodic search and coverage methods with optimality guarantees that scale from a single room to global monitoring, and that hold up when sensing is limited and time is short.
 
 <c>Current Research Topic Areas</c>
-- Time- and scale-optimal ergodic search and coverage
-- Exploration over complex, non-Euclidean domains and motion fields
-- Safety- and reachability-guaranteed exploration
+- Asymptotically optimal coverage over flow-induced motion fields ([RSS 2026](https://arxiv.org/abs/2605.13442))
+- Scale-agnostic and infinite-horizon ergodic search ([ICRA 2026](https://arxiv.org/abs/2512.05229), [preprint](https://arxiv.org/abs/2604.01023))
+- Time-optimal search and retrieval ([preprint](https://arxiv.org/abs/2610.21823))
+- Exploration over complex surfaces and under time-varying visibility ([ICRA 2025](https://arxiv.org/abs/2503.05026), [ICRA 2025](https://arxiv.org/abs/2503.04998))
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/bunny_inspection_abstract_fig.png"
+  image="images/papers/2512.05229.webp"
   link="research"
   title="Decision Making under Extreme Conditions"
   flip=true
+  fit="contain"
   text=text
 %}
 
 {% capture text %}
 
-We study how teams of robots coordinate to search, explore, and act together, and how to keep their decisions robust when models and environments are uncertain. This spans distributed and multi-objective optimization as well as distributionally robust control.
+When models are uncertain and decisions are spread across many particles, agents, or contact modes, optimization has to be parallel by design and robust by construction. We develop Stein-variational, distributed, and dual-control methods that hedge against uncertainty while still acting decisively.
 
 <c>Current Research Topic Areas</c>
-- Multi-agent ergodic exploration under sensing/visibility constraints
-- Multi-objective coordination via branch-and-bound and Pareto-optimal methods
-- Distributionally robust control under uncertainty
+- Distributionally robust and uncertainty-adaptive control via Stein variational inference ([RSS 2026](https://arxiv.org/abs/2605.19029), [preprint](https://arxiv.org/abs/2604.01034))
+- Distributed optimization for discovering diverse contact-rich strategies ([preprint](https://arxiv.org/abs/2609.28299))
+- Parallel, diverse multi-agent search ([NeurIPS 2025](https://doi.org/10.52202/085713-2482))
+- Dual control for acting under parametric uncertainty ([preprint](https://arxiv.org/abs/2510.20483))
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/multi-agent-erg.gif"
+  image="images/papers/2605.19029.webp"
   link="research"
   title="Distributed Optimization and Robust Control"
+  fit="contain"
   text=text
 %}
 
