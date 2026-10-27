@@ -523,6 +523,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3qb">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2610.21823.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="true">
           Preprint
@@ -547,6 +552,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3qx">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2609.27308.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="true">
           Preprint
@@ -577,6 +587,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3qz">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2609.20575.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="true">
           Preprint
@@ -605,6 +620,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3m8">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2605.19029.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="">
           Robotics: Science and Systems XXII
@@ -633,6 +653,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3m7">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2605.13442.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="">
           Robotics: Science and Systems XXII
@@ -663,6 +688,11 @@
   
     
     <a class="paper" href="https://doi.org/hcp3mv">
+      
+        <span class="paper-image">
+          <img src="/images/papers/2512.05229.webp" alt="" loading="lazy">
+        </span>
+      
       <span class="paper-meta">
         <span class="paper-venue" data-preprint="">
           2026 IEEE International Conference on Robotics and Automation (ICRA)
@@ -710,66 +740,75 @@
 
 <h2 id="research-areas">Research Areas</h2>
 
-<div class="feature">
+<div class="feature" data-video="">
   <a href="/research" class="feature-image" aria-label="Numerical Methods for Adaptive, High-Dimensional Learning and Control">
-    <img src="/images/hand_rubix.jpg" loading="lazy" alt="Numerical Methods for Adaptive, High-Dimensional Learning and Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+      <video src="/images/research/g1-carry-vision.mp4" poster="/images/research/g1-carry-vision.webp" autoplay="" muted="" loop="" playsinline="" preload="metadata" aria-label="Numerical Methods for Adaptive, High-Dimensional Learning and Control"></video>
+    
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Numerical Methods for Adaptive, High-Dimensional Learning and Control</p>
     
     
-<p>We develop fast numerical methods that let robots learn, adapt, and control themselves in real time, even when the underlying models are high-dimensional, uncertain, and contact-rich. We combine model-based structure with data-driven learning so that adaptation stays both efficient and reliable.</p>
+<p>Robots increasingly learn from pixels and act through contact, in state spaces far too large for classical solvers. We build fast, structure-exploiting numerical methods, from parallel differentiable simulation and sampling-based model predictive control to operator-theoretic models, that make learning and adaptation tractable in real time.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Data-driven dynamics via Koopman operators</li>
-  <li>Stein-variational and uncertainty-adaptive model predictive control</li>
-  <li>Contact-rich manipulation through differentiable simulation and contact-aware information maximization</li>
+  <li>Visual policy learning through parallel differentiable simulation and sampling-based control (<a href="https://arxiv.org/abs/2505.10646">NeurIPS 2025</a>, <a href="https://arxiv.org/abs/2605.26478">preprint</a>, <a href="https://arxiv.org/abs/2609.20575">preprint</a>)</li>
+  <li>Optimal switching between hybrid and non-differentiable control modes (<a href="https://arxiv.org/abs/2510.19074">ICRA 2026</a>)</li>
+  <li>Koopman operator models for learning and control (<a href="https://doi.org/10.1109/TRO.2026.3654384">T-RO 2026</a>)</li>
+  <li>Informative contact data for manipulation learning (<a href="https://arxiv.org/abs/2505.12214">RSS 2025</a>, <a href="https://arxiv.org/abs/2510.18137">preprint</a>)</li>
 </ul>
 
 
   </div>
 </div>
 
-<div class="feature" data-flip="">
+<div class="feature" data-flip="" data-fit="contain">
   <a href="/research" class="feature-image" aria-label="Decision Making under Extreme Conditions">
-    <img src="/images/bunny_inspection_abstract_fig.png" loading="lazy" alt="Decision Making under Extreme Conditions" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+      <img src="/images/papers/2512.05229.webp" loading="lazy" alt="Decision Making under Extreme Conditions" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Decision Making under Extreme Conditions</p>
     
     
-<p>We develop theory and algorithms that let robots search, explore, and act in the most extreme and remote environments, where sensing, energy, and time are limited and mistakes are costly. Ergodic control gives robots principled strategies for spending time in proportion to where information or coverage value lies.</p>
+<p>Flow fields, smoke, and vast or irregular spaces are where robots are most useful and most likely to fail. We develop ergodic search and coverage methods with optimality guarantees that scale from a single room to global monitoring, and that hold up when sensing is limited and time is short.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Time- and scale-optimal ergodic search and coverage</li>
-  <li>Exploration over complex, non-Euclidean domains and motion fields</li>
-  <li>Safety- and reachability-guaranteed exploration</li>
+  <li>Asymptotically optimal coverage over flow-induced motion fields (<a href="https://arxiv.org/abs/2605.13442">RSS 2026</a>)</li>
+  <li>Scale-agnostic and infinite-horizon ergodic search (<a href="https://arxiv.org/abs/2512.05229">ICRA 2026</a>, <a href="https://arxiv.org/abs/2604.01023">preprint</a>)</li>
+  <li>Time-optimal search and retrieval (<a href="https://arxiv.org/abs/2610.21823">preprint</a>)</li>
+  <li>Exploration over complex surfaces and under time-varying visibility (<a href="https://arxiv.org/abs/2503.05026">ICRA 2025</a>, <a href="https://arxiv.org/abs/2503.04998">ICRA 2025</a>)</li>
 </ul>
 
 
   </div>
 </div>
 
-<div class="feature">
+<div class="feature" data-fit="contain">
   <a href="/research" class="feature-image" aria-label="Distributed Optimization and Robust Control">
-    <img src="/images/multi-agent-erg.gif" loading="lazy" alt="Distributed Optimization and Robust Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+      <img src="/images/papers/2605.19029.webp" loading="lazy" alt="Distributed Optimization and Robust Control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Distributed Optimization and Robust Control</p>
     
     
-<p>We study how teams of robots coordinate to search, explore, and act together, and how to keep their decisions robust when models and environments are uncertain. This spans distributed and multi-objective optimization as well as distributionally robust control.</p>
+<p>When models are uncertain and decisions are spread across many particles, agents, or contact modes, optimization has to be parallel by design and robust by construction. We develop Stein-variational, distributed, and dual-control methods that hedge against uncertainty while still acting decisively.</p>
 
 <c>Current Research Topic Areas</c>
 <ul>
-  <li>Multi-agent ergodic exploration under sensing/visibility constraints</li>
-  <li>Multi-objective coordination via branch-and-bound and Pareto-optimal methods</li>
-  <li>Distributionally robust control under uncertainty</li>
+  <li>Distributionally robust and uncertainty-adaptive control via Stein variational inference (<a href="https://arxiv.org/abs/2605.19029">RSS 2026</a>, <a href="https://arxiv.org/abs/2604.01034">preprint</a>)</li>
+  <li>Distributed optimization for discovering diverse contact-rich strategies (<a href="https://arxiv.org/abs/2609.28299">preprint</a>)</li>
+  <li>Parallel, diverse multi-agent search (<a href="https://doi.org/10.52202/085713-2482">NeurIPS 2025</a>)</li>
+  <li>Dual control for acting under parametric uncertainty (<a href="https://arxiv.org/abs/2510.20483">preprint</a>)</li>
 </ul>
 
 

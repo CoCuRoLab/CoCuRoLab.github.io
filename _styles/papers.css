@@ -17,6 +17,7 @@
   box-shadow: var(--shadow);
   color: var(--text);
   text-decoration: none;
+  overflow: hidden;
   transition-property: transform, box-shadow, border-color;
 }
 
@@ -25,6 +26,25 @@
   box-shadow: var(--shadow-hover);
   color: var(--text);
   transform: translateY(-3px);
+}
+
+.paper-image {
+  display: block;
+  flex-shrink: 0;
+  aspect-ratio: 16/9;
+  min-height: 0;
+  overflow: hidden;
+  margin: -24px -24px 4px -24px;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  background: #ffffff;
+}
+
+.paper-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .paper-meta {

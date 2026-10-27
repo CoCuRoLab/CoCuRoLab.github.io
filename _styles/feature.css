@@ -22,6 +22,25 @@
   object-fit: cover;
 }
 
+.feature[data-fit=contain] .feature-image {
+  padding: 12px;
+  background: #ffffff;
+}
+
+.feature[data-fit=contain] .feature-image img {
+  object-fit: contain;
+}
+
+.feature[data-video] .feature-image {
+  aspect-ratio: auto;
+}
+
+.feature-image video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .feature-text {
   flex-grow: 1;
 }
