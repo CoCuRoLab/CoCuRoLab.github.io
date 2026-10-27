@@ -1,4 +1,4 @@
-- title: Theory of Search and Exploration
+- title: Decision Making under Extreme Conditions
   subtitle: 
   group: featured
   image: images/bunny_inspection_abstract_fig.png
@@ -11,7 +11,7 @@
     # - exploration
     # - information maximization
 
-- title: Structured Learning and Control
+- title: Numerical Methods for Adaptive, High-Dimensional Learning and Control
   subtitle: 
   group: featured
   image: images/hand_rubix.jpg
@@ -24,7 +24,7 @@
   #   - experimental design
   #   - optimal control
 
-- title: Collective Intelligence
+- title: Distributed Optimization and Robust Control
   subtitle: 
   group: featured
   image: images/multi-agent-erg.gif

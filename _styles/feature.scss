@@ -15,6 +15,7 @@ $wrap: 800px;
   flex-shrink: 0;
   width: 40%;
   aspect-ratio: 3 / 2;
+  border: 1px solid var(--border);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -31,10 +32,28 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--large);
-  text-align: center;
+  font-size: var(--xl);
+  letter-spacing: -0.015em;
+  text-align: left;
   font-family: var(--heading);
-  font-weight: var(--semi-bold);
+  font-weight: var(--bold);
+}
+
+// "Current Research Topic Areas" style labels
+.feature-text c {
+  display: block;
+  margin-top: 24px;
+  color: var(--primary);
+  font-family: var(--heading);
+  font-size: 0.8rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.feature-text ul {
+  margin-top: 8px;
 }
 
 .feature[data-flip] {

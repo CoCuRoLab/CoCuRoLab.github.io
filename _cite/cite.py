@@ -140,8 +140,10 @@ for index, source in enumerate(sources):
 
         # if Manubot cannot cite source
         except Exception as e:
-            # if regular source (id entered by user), throw error
-            if get_safe(source, "plugin", "") == "sources.py":
+            # if regular source (id entered by user) without its own details, throw error
+            if get_safe(source, "plugin", "") == "sources.py" and not get_safe(
+                source, "title", ""
+            ):
                 log(e, 3, "ERROR")
                 error = True
             # otherwise, if from metasource (id retrieved from some third-party API), just warn

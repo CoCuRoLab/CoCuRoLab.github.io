@@ -1,0 +1,36 @@
+{% comment %}
+  grid of the most recent entries in _data/citations.yaml, so the home page
+  picks up new work whenever the cite process runs
+{% endcomment %}
+
+{% assign count = include.count | default: 6 %}
+{% assign papers = site.data.citations
+  | where_exp: "paper", "paper.title"
+  | sort: "date"
+  | reverse
+%}
+{% assign members = site.members | map: "name" %}
+
+<div class="papers">
+  {% for paper in papers limit: count %}
+    {% assign year = paper.date | date: "%Y" %}
+    <a class="paper" {% if paper.link %}href="{{ paper.link }}"{% endif %}>
+      <span class="paper-meta">
+        <span class="paper-venue" data-preprint="{% if paper.publisher contains 'arXiv' %}true{% endif %}">
+          {% if paper.publisher contains "arXiv" %}Preprint{% else %}{{ paper.publisher }}{% endif %}
+        </span>
+        <span class="paper-year">{{ year }}</span>
+      </span>
+      <span class="paper-title">{{ paper.title }}</span>
+      <span class="paper-authors">
+        {% for author in paper.authors limit: 6 %}
+          {% if members contains author %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+        {% if paper.authors.size > 6 %}, et al.{% endif %}
+      </span>
+      <span class="paper-arrow">
+        Read paper {% include icon.html icon="fa-solid fa-arrow-right" %}
+      </span>
+    </a>
+  {% endfor %}
+</div>

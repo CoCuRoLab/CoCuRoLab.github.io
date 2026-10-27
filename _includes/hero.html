@@ -1,0 +1,32 @@
+{% assign image = include.image | default: site.header | relative_url %}
+
+<div class="hero" style="--image: url('{{ image }}')">
+  <div class="hero-inner">
+    {% if include.eyebrow %}
+      <p class="hero-eyebrow">{{ include.eyebrow }}</p>
+    {% endif %}
+    <h1 class="hero-title">{{ include.title | default: site.subtitle }}</h1>
+    {% if include.text %}
+      <p class="hero-text">{{ include.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+    <div class="hero-actions">
+      {% if include.link %}
+        {%
+          include button.html
+          link=include.link
+          text=include.link-text
+          icon="fa-solid fa-arrow-right"
+          flip=true
+        %}
+      {% endif %}
+      {% if include.link2 %}
+        {%
+          include button.html
+          link=include.link2
+          text=include.link2-text
+          style="outline"
+        %}
+      {% endif %}
+    </div>
+  </div>
+</div>

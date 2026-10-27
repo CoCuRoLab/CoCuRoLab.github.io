@@ -1,9 +1,9 @@
 # Future landing page ideas
 
-Interactive ideas considered for the homepage but not yet built. The 3D robot
-viewer and ergodic search demo were implemented (see `demos/robot-viewer.js`
-and `demos/ergodic-demo.js`, wired into `index.md` under "Try It Yourself").
-These are the remaining candidates, roughly in order of effort.
+Interactive ideas considered for the homepage but not yet built. (A 3D robot
+viewer and toy ergodic search demo were tried and removed in the Oct 2026
+redesign; see git history for `demos/`.) These are the remaining candidates,
+roughly in order of effort.
 
 ## Hover/flip cards for the three research pillars
 

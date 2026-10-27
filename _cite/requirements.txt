@@ -1,4 +1,6 @@
 manubot==0.5.5
+# manubot 0.5.5 imports RequestRate, removed in pyrate-limiter 3
+pyrate-limiter==2.10.0
 PyYAML==6.0
 diskcache==5.4.0
 rich==12.6.0

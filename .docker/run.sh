@@ -19,6 +19,14 @@ if [[ $OSTYPE == msys* ]] || [[ $OSTYPE == cygwin* ]]; then
     WORKING_DIR=$(cmd //c cd)
 fi
 
+# export corporate proxy root certificate (e.g. Zscaler) from macOS keychain
+# so the container can make https requests through the proxy
+mkdir -p ./.docker/certs
+if [[ $OSTYPE == darwin* ]]; then
+    security find-certificate -a -c Zscaler -p > ./.docker/certs/zscaler.crt 2> /dev/null
+    [ -s ./.docker/certs/zscaler.crt ] || rm -f ./.docker/certs/zscaler.crt
+fi
+
 # build docker image
 docker build ${PLATFORM} \
     --tag ${IMAGE} \

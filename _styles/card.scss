@@ -9,11 +9,18 @@
   width: 350px;
   max-width: calc(100% - 20px - 20px);
   margin: 20px;
-  background: var(--background);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
+  transition-property: transform, box-shadow;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
 }
 
 .card[data-style="small"] {

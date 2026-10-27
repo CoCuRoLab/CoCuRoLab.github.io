@@ -54,3 +54,30 @@
     - multi-objective optimization
     - ergodic search
     - ergodicity
+
+# orcid lists this work without a doi or arxiv id, so manubot can't fill in
+# its details; supply them here (merged into the orcid entry by matching id)
+- id: source-work-id:755432
+  type: paper
+  title: Accelerating Visual-Policy Learning through Parallel Differentiable Simulation
+  authors:
+    - Haoxiang You
+    - Yilang Liu
+    - Ian Abraham
+  publisher: Advances in Neural Information Processing Systems 38
+  date: '2025-12-02'
+  link: https://papers.nips.cc/paper_files/paper/2025/hash/4a90cfc130d4f37ecb99f90c3fba9d66-Abstract-Conference.html
+  buttons:
+    - type: link
+      text: arXiv
+      link: https://arxiv.org/abs/2505.10646
+
+# recent arxiv preprints not yet on orcid
+- id: doi:10.48550/arxiv.2610.21823
+  date: '2026-10-15'
+- id: doi:10.48550/arxiv.2609.27308
+  date: '2026-09-23'
+- id: doi:10.48550/arxiv.2609.20575
+  date: '2026-09-17'
+- id: doi:10.48550/arxiv.2605.26478
+  date: '2026-05-26'
