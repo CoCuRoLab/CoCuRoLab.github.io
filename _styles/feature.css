@@ -33,12 +33,14 @@
 
 .feature[data-video] .feature-image {
   aspect-ratio: auto;
+  background: var(--poster) center/cover no-repeat;
 }
 
 .feature-image video {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .feature-text {
