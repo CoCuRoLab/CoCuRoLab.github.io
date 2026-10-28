@@ -16,16 +16,19 @@
     {% endif %}
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" }}"
+    {% if include.video %}
+      style="--poster: url('{{ include.image | relative_url }}'); {% if include.ratio %}aspect-ratio: {{ include.ratio }};{% endif %}"
+    {% endif %}
   >
     {% if include.video %}
       <video
         src="{{ include.video | relative_url }}"
         poster="{{ include.image | relative_url }}"
-        autoplay
         muted
         loop
         playsinline
-        preload="metadata"
+        preload="none"
+        data-lazy-video
         aria-label="{{ include.title | default: "feature video" }}"
       ></video>
     {% else %}

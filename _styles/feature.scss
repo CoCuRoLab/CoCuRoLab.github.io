@@ -38,14 +38,18 @@ $wrap: 800px;
 }
 
 // videos keep their own aspect ratio rather than being cropped to 3:2
+// poster doubles as a background, so the frame is never empty if the
+// video can't load or play; ratio (if given) holds its shape before loading
 .feature[data-video] .feature-image {
   aspect-ratio: auto;
+  background: var(--poster) center / cover no-repeat;
 }
 
 .feature-image video {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .feature-text {

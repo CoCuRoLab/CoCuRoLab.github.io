@@ -50,6 +50,7 @@ Robots increasingly learn from pixels and act through contact, in state spaces f
   include feature.html
   image="images/research/g1-carry-vision.webp"
   video="images/research/g1-carry-vision.mp4"
+  ratio="4 / 3"
   link="research"
   title="Numerical Methods for Adaptive, High-Dimensional Learning and Control"
   text=text
@@ -91,10 +92,11 @@ When models are uncertain and decisions are spread across many particles, agents
 
 {%
   include feature.html
-  image="images/papers/2605.19029.webp"
+  image="images/research/dynamic-waiter.webp"
+  video="images/research/dynamic-waiter.mp4"
+  ratio="480 / 426"
   link="research"
   title="Distributed Optimization and Robust Control"
-  fit="contain"
   text=text
 %}
 
